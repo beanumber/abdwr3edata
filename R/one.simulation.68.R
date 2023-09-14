@@ -90,7 +90,7 @@ one.simulation.68 <- function(s.talent = 0.20) {
   ws_winner <- RESULTS |>
     dplyr::filter(Winner.Lg == 1) |>
     dplyr::mutate(
-      outcome = stats::rmultinom(1, 7, prob),
+      outcome = c(stats::rmultinom(1, 7, prob)),
       Winner.WS = ifelse(outcome > 3, 1, 0)
     ) |>
     dplyr::filter(outcome > 3) |>
