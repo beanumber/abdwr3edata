@@ -1,16 +1,160 @@
-library(dplyr)
-library(readr)
-library(ggplot2)
-library(Lahman)
-library(geomtextpath)
+#' @title Shiny app for comparing player trajectories
+#' @export
+#' @import shiny
+#' @import dplyr
+#' @import ggplot2
+#' @examples
+#' \dontrun{
+#'   compareTrajectories()
+#' }
 
-# data is read from a Github repository
 
-fg <- read_csv("https://raw.githubusercontent.com/bayesball/HomeRuns2021/main/woba_wts.csv")
+compareTrajectories <- function() {
+  
+  # data is read from a Github repository
+  fg <- readr::read_csv("https://raw.githubusercontent.com/bayesball/HomeRuns2021/main/woba_wts.csv")
+  
+  ui <- fluidPage(
+    theme = shinythemes::shinytheme("slate"),
+    h2("Comparing Career Pitching Trajectories"),
+    column(
+      3,
+      sliderInput("midyear", "Select Range of Mid Season:",
+                  1900, 2010,
+                  value = c(1975, 1985), sep = ""
+      ),
+      sliderInput("minpa", "Select Minimum IP:",
+                  1000, 5000, 2000,
+                  sep = ""
+      ),
+      selectInput("player_name1",
+                  "Select First Pitcher:",
+                  choices =
+                    selectPlayers2(c(1975, 1985), 2000)$Name
+      ),
+      selectInput("player_name2",
+                  "Select Second Pitcher:",
+                  choices =
+                    selectPlayers2(c(1975, 1985), 2000)$Name
+      ),
+      radioButtons("type",
+                   "Select Measure:",
+                   c(
+                     "ERA", "WHIP", "FIP",
+                     "SO Rate", "BB Rate"
+                   ),
+                   inline = TRUE
+      ),
+      radioButtons("xvar",
+                   "Plot Against:",
+                   c("year", "age"),
+                   inline = TRUE
+      ),
+      downloadButton("downloadData", "Download Data")
+    ),
+    column(
+      9,
+      plotOutput("plot1",
+                 height = "500px"
+      )
+    )
+  )
+  
+  server <- function(input, output, session) {
+    options(warn = -1)
+    observeEvent(input$midyear, {
+      updateSelectInput(
+        inputId = "player_name1",
+        choices =
+          selectPlayers2(
+            input$midyear,
+            input$minpa
+          )$Name
+      )
+    })
+    observeEvent(input$minpa, {
+      updateSelectInput(
+        inputId = "player_name1",
+        choices =
+          selectPlayers2(
+            input$midyear,
+            input$minpa
+          )$Name
+      )
+    })
+    observeEvent(input$midyear, {
+      updateSelectInput(
+        inputId = "player_name2",
+        choices =
+          selectPlayers2(
+            input$midyear,
+            input$minpa
+          )$Name
+      )
+    })
+    observeEvent(input$minpa, {
+      updateSelectInput(
+        inputId = "player_name2",
+        choices =
+          selectPlayers2(
+            input$midyear,
+            input$minpa
+          )$Name
+      )
+    })
+    output$plot1 <- renderPlot(
+      {
+        S <- selectPlayers2(
+          input$midyear,
+          input$minpa
+        )
+        id1 <- filter(
+          S,
+          Name == input$player_name1
+        )$playerID
+        id2 <- filter(
+          S,
+          Name == input$player_name2
+        )$playerID
+        compare_plot(
+          id1, id2, input$type, input$xvar,
+          fg
+        )$plot1
+      },
+      res = 96
+    )
+    output$downloadData <- downloadHandler(
+      filename = "trajectory_output.csv",
+      content = function(file) {
+        S <- selectPlayers2(
+          input$midyear,
+          input$minpa
+        )
+        id1 <- filter(
+          S,
+          Name == input$player_name1
+        )$playerID
+        id2 <- filter(
+          S,
+          Name == input$player_name2
+        )$playerID
+        out <- compare_plot(
+          id1, id2, input$type, input$xvar,
+          fg
+        )
+        write_csv(out$S, file)
+      }
+    )
+  }
+  
+  
+  shinyApp(ui = ui, server = server) |>
+    runApp()
+}
+
 
 selectPlayers2 <- function(midYearRange, minIP) {
-  require(Lahman)
-  Pitching %>%
+  Lahman::Pitching %>%
     mutate(IP = IPouts / 3) %>%
     group_by(playerID) %>%
     summarize(
@@ -26,31 +170,31 @@ selectPlayers2 <- function(midYearRange, minIP) {
       IP >= minIP
     ) %>%
     select(playerID) %>%
-    inner_join(People, by = "playerID") %>%
+    inner_join(Lahman::People, by = "playerID") %>%
     mutate(Name = paste(nameFirst, nameLast)) %>%
     select(playerID, Name)
 }
+
 compare_plot <- function(playerid_1, playerid_2,
                          measure, xvar, fg) {
-  require(Lahman)
   # check for legitimate input
   if ((length(playerid_1) > 0) &
     (length(playerid_2) > 0)) {
     # collect names of two players
-    Name1 <- filter(People, playerID == playerid_1) %>%
+    Name1 <- filter(Lahman::People, playerID == playerid_1) %>%
       mutate(Name = paste(nameFirst, nameLast)) %>%
       select(Name) %>%
       pull()
-    Name2 <- filter(People, playerID == playerid_2) %>%
+    Name2 <- filter(Lahman::People, playerID == playerid_2) %>%
       mutate(Name = paste(nameFirst, nameLast)) %>%
       select(Name) %>%
       pull()
     # collect hitting stats for two players for each season
-    Pitching %>%
+    Lahman::Pitching %>%
       filter(playerID %in% c(playerid_1, playerid_2)) %>%
       inner_join(
         select(
-          People, playerID,
+          Lahman::People, playerID,
           nameFirst, nameLast
         ),
         by = "playerID"
@@ -79,7 +223,7 @@ compare_plot <- function(playerid_1, playerid_2,
       mutate(FIP = FIP + cFIP) -> S
     # function to obtain birthyear for player
     get_birthyear <- function(playerid) {
-      People %>%
+      Lahman::People %>%
         filter(playerID == playerid) %>%
         mutate(
           Name = paste(nameFirst, nameLast),
@@ -141,7 +285,7 @@ compare_plot <- function(playerid_1, playerid_2,
       )
     ) +
       geom_point(size = 3) +
-      geom_textsmooth(
+      geomtextpath::geom_textsmooth(
         se = FALSE,
         method = "loess",
         formula = "y ~ x"
@@ -170,136 +314,3 @@ compare_plot <- function(playerid_1, playerid_2,
   } # end of initial if statement
 }
 
-ui <- fluidPage(
-  theme = shinythemes::shinytheme("slate"),
-  h2("Comparing Career Pitching Trajectories"),
-  column(
-    3,
-    sliderInput("midyear", "Select Range of Mid Season:",
-      1900, 2010,
-      value = c(1975, 1985), sep = ""
-    ),
-    sliderInput("minpa", "Select Minimum IP:",
-      1000, 5000, 2000,
-      sep = ""
-    ),
-    selectInput("player_name1",
-      "Select First Pitcher:",
-      choices =
-        selectPlayers2(c(1975, 1985), 2000)$Name
-    ),
-    selectInput("player_name2",
-      "Select Second Pitcher:",
-      choices =
-        selectPlayers2(c(1975, 1985), 2000)$Name
-    ),
-    radioButtons("type",
-      "Select Measure:",
-      c(
-        "ERA", "WHIP", "FIP",
-        "SO Rate", "BB Rate"
-      ),
-      inline = TRUE
-    ),
-    radioButtons("xvar",
-      "Plot Against:",
-      c("year", "age"),
-      inline = TRUE
-    ),
-    downloadButton("downloadData", "Download Data")
-  ),
-  column(
-    9,
-    plotOutput("plot1",
-      height = "500px"
-    )
-  )
-)
-server <- function(input, output, session) {
-  options(warn = -1)
-  observeEvent(input$midyear, {
-    updateSelectInput(
-      inputId = "player_name1",
-      choices =
-        selectPlayers2(
-          input$midyear,
-          input$minpa
-        )$Name
-    )
-  })
-  observeEvent(input$minpa, {
-    updateSelectInput(
-      inputId = "player_name1",
-      choices =
-        selectPlayers2(
-          input$midyear,
-          input$minpa
-        )$Name
-    )
-  })
-  observeEvent(input$midyear, {
-    updateSelectInput(
-      inputId = "player_name2",
-      choices =
-        selectPlayers2(
-          input$midyear,
-          input$minpa
-        )$Name
-    )
-  })
-  observeEvent(input$minpa, {
-    updateSelectInput(
-      inputId = "player_name2",
-      choices =
-        selectPlayers2(
-          input$midyear,
-          input$minpa
-        )$Name
-    )
-  })
-  output$plot1 <- renderPlot(
-    {
-      S <- selectPlayers2(
-        input$midyear,
-        input$minpa
-      )
-      id1 <- filter(
-        S,
-        Name == input$player_name1
-      )$playerID
-      id2 <- filter(
-        S,
-        Name == input$player_name2
-      )$playerID
-      compare_plot(
-        id1, id2, input$type, input$xvar,
-        fg
-      )$plot1
-    },
-    res = 96
-  )
-  output$downloadData <- downloadHandler(
-    filename = "trajectory_output.csv",
-    content = function(file) {
-      S <- selectPlayers2(
-        input$midyear,
-        input$minpa
-      )
-      id1 <- filter(
-        S,
-        Name == input$player_name1
-      )$playerID
-      id2 <- filter(
-        S,
-        Name == input$player_name2
-      )$playerID
-      out <- compare_plot(
-        id1, id2, input$type, input$xvar,
-        fg
-      )
-      write.csv(out$S, file, row.names = FALSE)
-    }
-  )
-}
-
-shinyApp(ui = ui, server = server)
