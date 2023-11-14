@@ -1,6 +1,6 @@
 Package: abdwr3edata
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9005
+Version: 0.0.0.9006
 Authors@R: c(
     person(given = "Benjamin S.",
            family = "Baumer",

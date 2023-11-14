@@ -7,6 +7,10 @@ test_that("statcast works", {
    expect_s3_class(x, "tbl")
    expect_s3_class(x, "data.frame")
    expect_gt(nrow(x), 0)
+   
+   y <- statcast_read_csv(dir = tempdir(), pattern = "2023[0-9,-]+\\.csv")
+   expect_lt(nrow(y), nrow(x))
+   
    expect_length(y <- statcast_write_rds(x, dir = tempdir()), 2)
    z <- readr::read_rds(y[1])
    expect_s3_class(z, "tbl")

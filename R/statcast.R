@@ -73,12 +73,13 @@ statcast_season <- function(year = lubridate::year(lubridate::now()), dir = getw
 
 #' @rdname statcast_daily
 #' @export
+#' @param pattern passed to [base::list.files()]
 #' @examples
 #' x <- statcast_read_csv(tempdir())
 
-statcast_read_csv <- function(dir = getwd()) {
+statcast_read_csv <- function(dir = getwd(), pattern = "*.csv") {
   dir |>
-    list.files(pattern = "*.csv", full.names = TRUE) |>
+    list.files(pattern = pattern, full.names = TRUE) |>
     readr::read_csv() |>
     dplyr::bind_rows()
 }

@@ -11,7 +11,7 @@ statcast_daily(the_date = lubridate::now(), dir = getwd())
 
 statcast_season(year = lubridate::year(lubridate::now()), dir = getwd())
 
-statcast_read_csv(dir = getwd())
+statcast_read_csv(dir = getwd(), pattern = "*.csv")
 
 statcast_write_rds(x, dir = getwd(), ...)
 }
@@ -21,6 +21,8 @@ statcast_write_rds(x, dir = getwd(), ...)
 \item{dir}{Path to a directory to store downloaded files}
 
 \item{year}{The year for which you want to download data}
+
+\item{pattern}{passed to \code{\link[base:list.files]{base::list.files()}}}
 
 \item{x}{Data frame to write. See \code{\link[readr:read_rds]{readr::write_rds()}}.}
 
