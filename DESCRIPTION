@@ -1,6 +1,6 @@
 Package: abdwr3edata
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9007
+Version: 0.0.0.9008
 Authors@R: c(
     person(given = "Benjamin S.",
            family = "Baumer",
@@ -31,6 +31,7 @@ Imports:
     rlang,
     shiny,
     shinythemes,
+    stringr,
     tibble,
     tidyr
 Suggests: 
