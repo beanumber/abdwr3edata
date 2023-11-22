@@ -11,9 +11,6 @@
 
 compareTrajectories <- function() {
   
-  # data is read from a Github repository
-  fg <- readr::read_csv("https://raw.githubusercontent.com/bayesball/HomeRuns2021/main/woba_wts.csv")
-  
   ui <- fluidPage(
     theme = shinythemes::shinytheme("slate"),
     h2("Comparing Career Pitching Trajectories"),
@@ -117,8 +114,7 @@ compareTrajectories <- function() {
           Name == input$player_name2
         )$playerID
         compare_plot(
-          id1, id2, input$type, input$xvar,
-          fg
+          id1, id2, input$type, input$xvar
         )$plot1
       },
       res = 96
@@ -139,8 +135,7 @@ compareTrajectories <- function() {
           Name == input$player_name2
         )$playerID
         out <- compare_plot(
-          id1, id2, input$type, input$xvar,
-          fg
+          id1, id2, input$type, input$xvar
         )
         write_csv(out$S, file)
       }
@@ -165,8 +160,8 @@ selectPlayers2 <- function(midYearRange, minIP) {
       .groups = "drop"
     ) %>%
     filter(
-      midYear <= midYearRange[2],
-      midYear >= midYearRange[1],
+      midYear <= max(midYearRange),
+      midYear >= min(midYearRange),
       IP >= minIP
     ) %>%
     select(playerID) %>%
@@ -176,7 +171,7 @@ selectPlayers2 <- function(midYearRange, minIP) {
 }
 
 compare_plot <- function(playerid_1, playerid_2,
-                         measure, xvar, fg) {
+                         measure, xvar) {
   # check for legitimate input
   if ((length(playerid_1) > 0) &
     (length(playerid_2) > 0)) {
@@ -217,6 +212,9 @@ compare_plot <- function(playerid_1, playerid_2,
         BB_Rate = 9 * BB / IP,
         .groups = "drop"
       ) -> S
+    
+    # data is read from a Github repository
+    fg <- readr::read_csv("https://raw.githubusercontent.com/bayesball/HomeRuns2021/main/woba_wts.csv")
     # merge fangraphs weights for wOBA
     # compute wOBA for each player each season
     inner_join(S, fg, by = c("yearID" = "Season")) %>%
