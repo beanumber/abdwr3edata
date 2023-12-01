@@ -149,24 +149,24 @@ compareTrajectories <- function() {
 
 
 selectPlayers2 <- function(midYearRange, minIP) {
-  Lahman::Pitching %>%
-    mutate(IP = IPouts / 3) %>%
-    group_by(playerID) %>%
+  Lahman::Pitching |>
+    mutate(IP = IPouts / 3) |>
+    group_by(playerID) |>
     summarize(
       minYear = min(yearID),
       maxYear = max(yearID),
       midYear = (minYear + maxYear) / 2,
       IP = sum(IP),
       .groups = "drop"
-    ) %>%
+    ) |>
     filter(
       midYear <= max(midYearRange),
       midYear >= min(midYearRange),
       IP >= minIP
-    ) %>%
-    select(playerID) %>%
-    inner_join(Lahman::People, by = "playerID") %>%
-    mutate(Name = paste(nameFirst, nameLast)) %>%
+    ) |>
+    select(playerID) |>
+    inner_join(Lahman::People, by = "playerID") |>
+    mutate(Name = paste(nameFirst, nameLast)) |>
     select(playerID, Name)
 }
 
@@ -176,26 +176,26 @@ compare_plot <- function(playerid_1, playerid_2,
   if ((length(playerid_1) > 0) &
     (length(playerid_2) > 0)) {
     # collect names of two players
-    Name1 <- filter(Lahman::People, playerID == playerid_1) %>%
-      mutate(Name = paste(nameFirst, nameLast)) %>%
-      select(Name) %>%
+    Name1 <- filter(Lahman::People, playerID == playerid_1) |>
+      mutate(Name = paste(nameFirst, nameLast)) |>
+      select(Name) |>
       pull()
-    Name2 <- filter(Lahman::People, playerID == playerid_2) %>%
-      mutate(Name = paste(nameFirst, nameLast)) %>%
-      select(Name) %>%
+    Name2 <- filter(Lahman::People, playerID == playerid_2) |>
+      mutate(Name = paste(nameFirst, nameLast)) |>
+      select(Name) |>
       pull()
     # collect hitting stats for two players for each season
-    Lahman::Pitching %>%
-      filter(playerID %in% c(playerid_1, playerid_2)) %>%
+    Lahman::Pitching |>
+      filter(playerID %in% c(playerid_1, playerid_2)) |>
       inner_join(
         select(
           Lahman::People, playerID,
           nameFirst, nameLast
         ),
         by = "playerID"
-      ) %>%
-      mutate(Name = paste(nameFirst, nameLast)) %>%
-      group_by(Name, yearID) %>%
+      ) |>
+      mutate(Name = paste(nameFirst, nameLast)) |>
+      group_by(Name, yearID) |>
       summarize(
         IP = sum(IPouts / 3),
         H = sum(H),
@@ -217,18 +217,18 @@ compare_plot <- function(playerid_1, playerid_2,
     fg <- readr::read_csv("https://raw.githubusercontent.com/bayesball/HomeRuns2021/main/woba_wts.csv")
     # merge fangraphs weights for wOBA
     # compute wOBA for each player each season
-    inner_join(S, fg, by = c("yearID" = "Season")) %>%
+    inner_join(S, fg, by = c("yearID" = "Season")) |>
       mutate(FIP = FIP + cFIP) -> S
     # function to obtain birthyear for player
     get_birthyear <- function(playerid) {
-      Lahman::People %>%
-        filter(playerID == playerid) %>%
+      Lahman::People |>
+        filter(playerID == playerid) |>
         mutate(
           Name = paste(nameFirst, nameLast),
           birthyear = ifelse(birthMonth >= 7,
             birthYear + 1, birthYear
           )
-        ) %>%
+        ) |>
         select(Name, birthyear)
     }
     # collect birthyears and compute ages for each
@@ -237,7 +237,7 @@ compare_plot <- function(playerid_1, playerid_2,
       get_birthyear(playerid_1),
       get_birthyear(playerid_2)
     )
-    inner_join(S, S1, by = "Name") %>%
+    inner_join(S, S1, by = "Name") |>
       mutate(Age = yearID - birthyear) -> S
     # define outcome depending on input
     if (measure == "ERA") {
