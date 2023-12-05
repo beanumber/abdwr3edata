@@ -7,10 +7,10 @@ globalVariables(c(
 #' @param s.talent Proportion of talent (vs. luck)
 #' @export
 #' @examples
-#' one.simulation.68()
+#' one_simulation_68()
 #' 
 
-one.simulation.68 <- function(s.talent = 0.20) {
+one_simulation_68 <- function(s.talent = 0.20) {
   make.schedule <- function(teams, k) {
     n.teams <- length(teams)
     Home <- rep(rep(teams, each = n.teams), k)
