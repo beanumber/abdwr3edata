@@ -1,6 +1,7 @@
 Package: abdwr3edata
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9008
+Title: Companion to 'Analyzing Baseball Data with R', 3rd edition
+Version: 0.0.1
+Date: 2024-01-01
 Authors@R: c(
     person(given = "Benjamin S.",
            family = "Baumer",
@@ -13,11 +14,16 @@ Authors@R: c(
            role = c("aut", "cre"),
            email = "albertcb1@gmail.com")
     )
-Description: What the package does (one paragraph).
+Description: A complement to *Analyzing Baseball Data with R*, 3rd edition. 
+    This package contains data and code that supports both the print and 
+    online versions of the 3rd edition of the book. 
 License: CC0
 Encoding: UTF-8
+URL: https://github.com/beanumber/abdwr3edata
+BugReports: https://github.com/beaumber/abdwr3edata/issues
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Depends: R (>= 4.1.0)
 Imports: 
     baseballr,
     dplyr,
@@ -36,4 +42,6 @@ Imports:
     tidyr
 Suggests: 
     testthat (>= 3.0.0)
+LazyData: true
+LazyDataCompression: xz
 Config/testthat/edition: 3
