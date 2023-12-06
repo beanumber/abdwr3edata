@@ -1,0 +1,2200 @@
+game_pk,temperature,Park
+718773,61,Great American Ball Park
+718774,76,loanDepot park
+718781,39,Yankee Stadium
+718769,52,Oakland Coliseum
+718778,56,Petco Park
+718772,70,Busch Stadium
+718777,42,Wrigley Field
+718770,54,Dodger Stadium
+718776,72,Tropicana Field
+718767,54,T-Mobile Park
+718768,73,Minute Maid Park
+718780,45,Nationals Park
+718775,67,Kauffman Stadium
+718782,38,Fenway Park
+718779,69,Globe Life Field
+718668,53,Citizens Bank Park
+718659,44,Truist Park
+718664,51,Oriole Park at Camden Yards
+718660,65,American Family Field
+718669,57,Wrigley Field
+718663,45,Progressive Field
+718661,52,Citi Field
+718665,72,Tropicana Field
+718658,65,Coors Field
+718662,51,PNC Park
+718657,63,Angel Stadium
+718656,81,Chase Field
+718666,56,Target Field
+718672,59,Oracle Park
+718667,50,Comerica Park
+717465,85,Nationals Park
+717455,72,Guaranteed Rate Field
+717464,80,Yankee Stadium
+717466,72,loanDepot park
+717463,75,Progressive Field
+717454,67,Petco Park
+717452,74,Chase Field
+717458,73,Target Field
+717457,79,Comerica Park
+717459,77,American Family Field
+717453,73,Minute Maid Park
+717460,72,Tropicana Field
+717461,82,Fenway Park
+717448,60,Oracle Park
+717456,69,Dodger Stadium
+717436,65,Petco Park
+717440,73,Minute Maid Park
+717441,72,Tropicana Field
+717447,83,Yankee Stadium
+717439,76,Chase Field
+717442,69,Comerica Park
+717445,65,Guaranteed Rate Field
+717443,72,Progressive Field
+717449,78,Fenway Park
+717438,72,loanDepot park
+717444,75,American Family Field
+717446,76,Target Field
+717450,87,Nationals Park
+717437,73,Dodger Stadium
+717451,62,Oracle Park
+717422,60,Oracle Park
+717433,79,Yankee Stadium
+717423,70,Petco Park
+717428,80,Target Field
+717427,75,American Family Field
+717430,73,Minute Maid Park
+717425,77,Chase Field
+717426,72,loanDepot park
+717432,83,Nationals Park
+717434,73,Progressive Field
+717424,80,Guaranteed Rate Field
+717431,74,Comerica Park
+717435,80,Fenway Park
+717429,72,Tropicana Field
+717413,82,Citi Field
+717412,91,Great American Ball Park
+717417,81,Oriole Park at Camden Yards
+717420,73,Rogers Centre
+717414,86,Truist Park
+717418,87,Citizens Bank Park
+717405,85,Angel Stadium
+717419,86,Wrigley Field
+717406,80,T-Mobile Park
+717416,85,PNC Park
+717415,74,Globe Life Field
+717410,82,Coors Field
+717409,71,Oakland Coliseum
+717407,91,Busch Stadium
+717398,86,PNC Park
+717399,80,Oakland Coliseum
+717400,79,Citi Field
+717389,77,Angel Stadium
+717408,90,Citizens Bank Park
+717395,86,Truist Park
+717390,84,T-Mobile Park
+717404,68,Rogers Centre
+717397,86,Citizens Bank Park
+717411,86,Kauffman Stadium
+717392,75,Great American Ball Park
+717402,74,Globe Life Field
+717394,85,Coors Field
+717403,83,Wrigley Field
+717396,77,Busch Stadium
+717401,90,Oriole Park at Camden Yards
+717393,88,Kauffman Stadium
+717378,86,Coors Field
+717387,77,Citizens Bank Park
+717384,81,Oriole Park at Camden Yards
+717391,88,Truist Park
+717377,74,Globe Life Field
+717385,79,Citi Field
+717383,83,Great American Ball Park
+717380,89,Busch Stadium
+717382,70,Kauffman Stadium
+717379,79,Oakland Coliseum
+717381,83,Angel Stadium
+717376,81,Wrigley Field
+717386,73,Rogers Centre
+717373,76,T-Mobile Park
+717388,79,PNC Park
+718648,63,Truist Park
+718655,72,Tropicana Field
+718652,58,Citizens Bank Park
+718650,63,American Family Field
+718653,56,PNC Park
+718642,63,Wrigley Field
+718644,72,Angel Stadium
+718649,62,Target Field
+718639,86,Chase Field
+718646,52,Progressive Field
+718651,55,Oriole Park at Camden Yards
+718645,63,Coors Field
+718643,65,Oracle Park
+718647,49,Citi Field
+718654,55,Comerica Park
+717369,79,Angel Stadium
+717370,72,Wrigley Field
+717365,70,T-Mobile Park
+717375,85,Great American Ball Park
+717366,67,Oakland Coliseum
+717367,74,Globe Life Field
+717372,89,Oriole Park at Camden Yards
+717374,80,Busch Stadium
+717368,84,Kauffman Stadium
+717371,67,PNC Park
+717362,73,Rogers Centre
+717352,82,Angel Stadium
+717364,80,PNC Park
+717359,80,Citi Field
+717355,88,Coors Field
+717353,73,Wrigley Field
+717363,89,Citizens Bank Park
+717354,74,Globe Life Field
+717357,81,Busch Stadium
+717361,87,Oriole Park at Camden Yards
+717350,77,T-Mobile Park
+717349,63,Oakland Coliseum
+717358,90,Truist Park
+717356,76,Kauffman Stadium
+717360,78,Great American Ball Park
+717341,79,Citi Field
+717338,68,Rogers Centre
+717335,83,T-Mobile Park
+717340,85,Truist Park
+717351,85,Busch Stadium
+717336,77,Wrigley Field
+717348,75,PNC Park
+717342,82,Great American Ball Park
+717345,90,Coors Field
+717343,85,Oriole Park at Camden Yards
+717344,69,Oakland Coliseum
+717333,83,Kauffman Stadium
+717339,89,Angel Stadium
+717347,82,Citizens Bank Park
+717346,74,Globe Life Field
+717334,85,Great American Ball Park
+717331,75,Rogers Centre
+717329,84,Citizens Bank Park
+717337,90,Truist Park
+717322,80,Wrigley Field
+717327,76,T-Mobile Park
+717323,71,Oakland Coliseum
+717328,72,Tropicana Field
+717330,85,Citi Field
+717332,86,Kauffman Stadium
+717326,87,Nationals Park
+717314,82,Target Field
+717325,74,Wrigley Field
+717317,80,Comerica Park
+717313,79,American Family Field
+717318,84,Yankee Stadium
+717310,71,Oakland Coliseum
+717315,75,Progressive Field
+717320,72,Tropicana Field
+717316,74,Globe Life Field
+717321,82,Great American Ball Park
+717312,79,Angel Stadium
+717311,79,T-Mobile Park
+717319,72,loanDepot park
+717324,75,Fenway Park
+717302,78,Progressive Field
+717308,82,Wrigley Field
+717297,79,Angel Stadium
+717295,75,Oakland Coliseum
+717304,79,Yankee Stadium
+717293,77,Target Field
+717309,74,Fenway Park
+717301,74,T-Mobile Park
+717306,72,loanDepot park
+717300,72,Tropicana Field
+717303,83,Great American Ball Park
+717296,78,American Family Field
+717307,84,Nationals Park
+717305,72,Globe Life Field
+717299,80,Comerica Park
+717292,72,loanDepot park
+717286,78,Wrigley Field
+717287,80,American Family Field
+717278,81,Angel Stadium
+717285,82,Target Field
+717294,84,Yankee Stadium
+717284,74,Globe Life Field
+717279,72,Oakland Coliseum
+717288,80,Comerica Park
+717281,77,T-Mobile Park
+717290,87,Nationals Park
+717291,72,Tropicana Field
+717283,82,Progressive Field
+717289,83,Great American Ball Park
+717298,75,Fenway Park
+717273,78,American Family Field
+717275,83,Target Field
+717274,73,Minute Maid Park
+717277,79,Progressive Field
+717280,85,Citizens Bank Park
+717271,78,Dodger Stadium
+717282,85,Nationals Park
+717276,72,Petco Park
+717268,78,Chase Field
+718558,81,Comerica Park
+717262,85,American Family Field
+717256,83,Dodger Stadium
+717267,72,Citizens Bank Park
+717263,86,Guaranteed Rate Field
+717258,75,Petco Park
+717266,70,Yankee Stadium
+717270,72,Tropicana Field
+717272,67,Oracle Park
+717264,90,Target Field
+717259,78,Chase Field
+717265,85,Comerica Park
+717260,80,Progressive Field
+717269,82,Nationals Park
+717255,73,Minute Maid Park
+717261,69,Fenway Park
+717253,92,Dodger Stadium
+717257,86,Nationals Park
+717244,78,Chase Field
+717240,88,Guaranteed Rate Field
+717252,72,Tropicana Field
+717250,83,Target Field
+717248,82,Yankee Stadium
+717242,85,Fenway Park
+717239,73,Minute Maid Park
+717245,89,Citizens Bank Park
+717246,81,Petco Park
+717254,80,American Family Field
+717249,86,Progressive Field
+717251,61,Oracle Park
+718632,69,PNC Park
+718634,55,Citi Field
+718636,65,Truist Park
+718637,56,Progressive Field
+718640,66,Target Field
+718641,55,Oracle Park
+718627,94,Chase Field
+718630,73,Globe Life Field
+718628,67,Wrigley Field
+718635,64,Oriole Park at Camden Yards
+718629,75,Coors Field
+718631,66,Angel Stadium
+718638,72,Tropicana Field
+718633,64,Citizens Bank Park
+717243,78,Comerica Park
+717241,90,Citi Field
+717233,86,Guaranteed Rate Field
+717247,84,Comerica Park
+717238,99,Busch Stadium
+717237,84,Oriole Park at Camden Yards
+717234,90,PNC Park
+717235,82,Rogers Centre
+717224,73,Petco Park
+717229,73,Minute Maid Park
+717232,97,Kauffman Stadium
+717230,87,Citi Field
+717225,79,Dodger Stadium
+717226,96,Busch Stadium
+717236,72,loanDepot park
+717223,78,Chase Field
+717227,83,Coors Field
+717231,80,Truist Park
+717220,62,Oracle Park
+717228,86,Guaranteed Rate Field
+717212,87,Coors Field
+717221,65,Oracle Park
+717207,85,Kauffman Stadium
+717216,79,PNC Park
+717209,74,Petco Park
+717219,82,Oriole Park at Camden Yards
+717214,73,Minute Maid Park
+717215,79,Citi Field
+717222,68,Rogers Centre
+717217,77,Guaranteed Rate Field
+717205,82,Dodger Stadium
+717213,78,Busch Stadium
+717211,89,Truist Park
+717210,78,Chase Field
+717218,72,loanDepot park
+717203,77,Citi Field
+717193,78,Chase Field
+717201,69,Rogers Centre
+717191,77,Petco Park
+717195,86,Busch Stadium
+717202,72,loanDepot park
+717194,82,Dodger Stadium
+717198,87,Kauffman Stadium
+717206,87,Truist Park
+717204,79,Guaranteed Rate Field
+717196,73,Minute Maid Park
+717199,93,Coors Field
+717200,83,Oriole Park at Camden Yards
+717208,70,PNC Park
+717197,65,Oracle Park
+717186,76,Rogers Centre
+717179,70,Coors Field
+717181,74,T-Mobile Park
+717189,72,loanDepot park
+717184,73,Minute Maid Park
+717192,84,Nationals Park
+717190,62,Oracle Park
+717187,89,Truist Park
+717185,80,Yankee Stadium
+717188,74,Wrigley Field
+717176,89,Truist Park
+717174,84,Busch Stadium
+717182,72,loanDepot park
+717173,84,Wrigley Field
+717178,75,PNC Park
+717177,68,Rogers Centre
+717175,78,Yankee Stadium
+717183,79,Nationals Park
+717172,73,Minute Maid Park
+717171,78,Dodger Stadium
+717167,77,T-Mobile Park
+717180,60,Oracle Park
+717170,93,Kauffman Stadium
+717169,70,Coors Field
+717168,74,Globe Life Field
+717164,61,Oracle Park
+717161,77,T-Mobile Park
+717155,81,Busch Stadium
+717152,74,Globe Life Field
+717156,83,Kauffman Stadium
+717159,72,loanDepot park
+717158,84,Coors Field
+717157,74,Rogers Centre
+717166,73,PNC Park
+717160,78,Yankee Stadium
+717163,73,Minute Maid Park
+717162,81,Nationals Park
+717153,81,Wrigley Field
+717165,84,Truist Park
+717154,78,Dodger Stadium
+717149,74,Globe Life Field
+717150,82,Rogers Centre
+717142,74,Yankee Stadium
+717147,72,loanDepot park
+717148,81,Kauffman Stadium
+717143,88,American Family Field
+717137,75,Dodger Stadium
+717145,83,Busch Stadium
+717146,83,Wrigley Field
+717151,62,Oracle Park
+717144,79,Angel Stadium
+717139,89,Great American Ball Park
+717128,83,Target Field
+717140,76,Citizens Bank Park
+717130,82,Angel Stadium
+717132,78,Progressive Field
+717136,77,Fenway Park
+717138,74,Yankee Stadium
+717135,81,Comerica Park
+717131,75,American Family Field
+717133,74,Globe Life Field
+717134,80,Oriole Park at Camden Yards
+717129,72,Petco Park
+717127,83,Busch Stadium
+717141,82,Wrigley Field
+717112,74,Petco Park
+717116,75,American Family Field
+717120,87,Great American Ball Park
+717117,75,Oakland Coliseum
+717119,84,Busch Stadium
+717114,85,Oriole Park at Camden Yards
+717121,73,Wrigley Field
+717115,77,Progressive Field
+717126,80,Yankee Stadium
+717109,84,Angel Stadium
+717124,74,Globe Life Field
+717122,77,Comerica Park
+717118,84,Target Field
+717123,86,Citizens Bank Park
+717125,80,Fenway Park
+718614,63,Angel Stadium
+718619,70,Citizens Bank Park
+718618,76,Oriole Park at Camden Yards
+718615,73,Globe Life Field
+718616,78,Target Field
+718611,93,Chase Field
+718626,59,Progressive Field
+718623,72,PNC Park
+718625,72,Tropicana Field
+718622,68,Rogers Centre
+718621,69,Citi Field
+718613,82,Coors Field
+718624,56,Oracle Park
+718620,71,Truist Park
+718617,76,Wrigley Field
+717098,68,Wrigley Field
+717102,74,Globe Life Field
+717105,74,American Family Field
+717101,90,Angel Stadium
+717106,74,Target Field
+717108,81,Progressive Field
+717111,80,Fenway Park
+717093,74,Petco Park
+717113,87,Citizens Bank Park
+717104,84,Great American Ball Park
+717103,74,Comerica Park
+717107,88,Oriole Park at Camden Yards
+717100,81,Oakland Coliseum
+717099,83,Busch Stadium
+717110,81,Yankee Stadium
+717090,78,Angel Stadium
+717088,74,Guaranteed Rate Field
+717089,69,Fenway Park
+717092,78,Citi Field
+717091,72,Comerica Park
+717086,74,American Family Field
+717081,70,Oakland Coliseum
+717087,70,Progressive Field
+717097,75,Great American Ball Park
+717094,76,Petco Park
+717095,74,PNC Park
+717075,78,Guaranteed Rate Field
+717082,79,Citizens Bank Park
+717076,82,Comerica Park
+717068,77,Angel Stadium
+717074,78,Progressive Field
+717072,78,T-Mobile Park
+717085,72,Tropicana Field
+717077,78,Fenway Park
+717080,77,Citi Field
+717073,76,Chase Field
+717096,81,Citizens Bank Park
+717084,81,Oriole Park at Camden Yards
+717079,81,PNC Park
+717069,66,Oakland Coliseum
+717083,81,Great American Ball Park
+717078,82,American Family Field
+717066,86,Citizens Bank Park
+717065,82,American Family Field
+717067,85,Oriole Park at Camden Yards
+717070,81,Great American Ball Park
+717059,79,Fenway Park
+717071,74,Angel Stadium
+717063,71,Oakland Coliseum
+717062,84,Citi Field
+717061,81,Comerica Park
+717057,78,Chase Field
+717060,80,Progressive Field
+717055,75,T-Mobile Park
+717054,76,Guaranteed Rate Field
+717058,81,PNC Park
+717064,72,Tropicana Field
+717049,74,Citizens Bank Park
+717048,72,Tropicana Field
+717051,77,Fenway Park
+717053,79,Oriole Park at Camden Yards
+717050,80,Comerica Park
+717052,75,Progressive Field
+717056,73,PNC Park
+717045,74,Dodger Stadium
+717044,84,Citizens Bank Park
+717036,83,Guaranteed Rate Field
+717040,82,Citi Field
+717043,82,Nationals Park
+717034,75,T-Mobile Park
+717035,78,Chase Field
+717046,83,PNC Park
+717037,73,Minute Maid Park
+717042,80,Fenway Park
+717032,73,Dodger Stadium
+717041,73,Rogers Centre
+717038,72,Tropicana Field
+717031,64,Oracle Park
+717047,72,loanDepot park
+717039,93,Kauffman Stadium
+717025,72,loanDepot park
+718371,83,Citi Field
+717021,79,Citi Field
+717018,78,T-Mobile Park
+717022,73,Minute Maid Park
+717026,77,Rogers Centre
+717030,87,Nationals Park
+717020,78,Chase Field
+717023,81,Guaranteed Rate Field
+717019,90,Kauffman Stadium
+717028,84,Citizens Bank Park
+717029,67,Oracle Park
+717017,77,Dodger Stadium
+717033,80,Fenway Park
+717024,72,Tropicana Field
+717013,85,Citi Field
+717008,72,Oracle Park
+717006,75,Guaranteed Rate Field
+717011,72,loanDepot park
+717010,72,Tropicana Field
+717016,88,Nationals Park
+717014,82,Fenway Park
+717009,86,Citizens Bank Park
+717003,78,Chase Field
+717015,79,PNC Park
+717005,82,T-Mobile Park
+717012,75,Rogers Centre
+717007,83,Dodger Stadium
+717004,73,Minute Maid Park
+717027,82,PNC Park
+716994,76,Kauffman Stadium
+717002,81,Citi Field
+716997,74,Globe Life Field
+716995,79,Busch Stadium
+716996,69,Petco Park
+717000,72,loanDepot park
+716998,79,Coors Field
+716999,68,Oracle Park
+717001,91,Truist Park
+716985,74,Globe Life Field
+716990,68,Rogers Centre
+716992,72,Great American Ball Park
+716984,74,Busch Stadium
+716986,71,Wrigley Field
+716991,72,loanDepot park
+716987,80,Truist Park
+716988,78,Citi Field
+716981,76,Kauffman Stadium
+716983,78,Target Field
+716993,81,Nationals Park
+716980,73,Petco Park
+716978,90,Coors Field
+716989,67,Oracle Park
+716979,77,Dodger Stadium
+718605,76,Target Field
+718599,84,Oriole Park at Camden Yards
+718595,75,Globe Life Field
+718603,61,Rogers Centre
+718601,75,Truist Park
+718610,77,Citi Field
+718612,55,Oracle Park
+718606,77,Wrigley Field
+718609,84,Citizens Bank Park
+718608,77,PNC Park
+718602,65,Angel Stadium
+718607,85,Coors Field
+718600,72,Tropicana Field
+718598,72,Chase Field
+718604,70,Progressive Field
+716971,74,Globe Life Field
+716968,75,Wrigley Field
+716963,82,Kauffman Stadium
+716973,79,Great American Ball Park
+716974,78,Citi Field
+716970,82,Truist Park
+716965,76,Petco Park
+716972,72,loanDepot park
+716977,95,Coors Field
+716982,83,Nationals Park
+716967,79,Rogers Centre
+716969,83,Busch Stadium
+716975,71,Oracle Park
+716976,81,Target Field
+716962,78,Dodger Stadium
+716957,71,Petco Park
+716961,74,Dodger Stadium
+716958,84,Busch Stadium
+716966,90,Nationals Park
+716964,82,Kauffman Stadium
+716942,72,Petco Park
+716955,73,Wrigley Field
+716948,73,Minute Maid Park
+716949,83,Truist Park
+716954,77,Great American Ball Park
+716951,78,Target Field
+716953,78,Yankee Stadium
+716946,76,Dodger Stadium
+716944,68,Oakland Coliseum
+716950,74,Globe Life Field
+716956,72,Progressive Field
+716947,84,Coors Field
+716952,79,Busch Stadium
+716959,71,Progressive Field
+716945,81,Angel Stadium
+716960,84,Nationals Park
+716938,74,Globe Life Field
+716931,72,Petco Park
+716919,71,Petco Park
+716935,83,Great American Ball Park
+716926,77,Dodger Stadium
+716925,76,Angel Stadium
+716937,80,Wrigley Field
+716936,90,Target Field
+716940,87,Busch Stadium
+716934,87,Truist Park
+716933,91,Coors Field
+716941,80,Nationals Park
+716932,73,Minute Maid Park
+716939,74,Progressive Field
+716909,79,Dodger Stadium
+716915,78,Angel Stadium
+716943,73,Yankee Stadium
+716930,70,Oakland Coliseum
+716916,86,Coors Field
+716922,83,Progressive Field
+716927,89,Truist Park
+716918,74,Globe Life Field
+716921,95,Busch Stadium
+716929,79,Muncy Bank Ballpark
+716928,82,Yankee Stadium
+716917,85,Wrigley Field
+716914,78,Oakland Coliseum
+716924,89,Great American Ball Park
+716923,76,Target Field
+716920,73,Minute Maid Park
+716908,73,Minute Maid Park
+716911,88,Citizens Bank Park
+716905,73,Guaranteed Rate Field
+716907,72,Petco Park
+716910,92,Truist Park
+716913,78,Comerica Park
+716912,86,PNC Park
+716906,77,Chase Field
+716904,72,Oakland Coliseum
+716900,77,Yankee Stadium
+716892,81,Angel Stadium
+716897,72,Progressive Field
+716901,76,PNC Park
+716893,82,Guaranteed Rate Field
+716896,73,Comerica Park
+716895,73,Minute Maid Park
+716887,73,Petco Park
+716891,92,Truist Park
+716902,81,Oriole Park at Camden Yards
+716889,76,Chase Field
+716894,76,American Family Field
+716898,72,Tropicana Field
+716899,79,Citizens Bank Park
+716888,72,Oakland Coliseum
+716876,91,Truist Park
+716874,79,Oriole Park at Camden Yards
+716883,74,Petco Park
+716878,73,Minute Maid Park
+716881,95,Guaranteed Rate Field
+716882,97,American Family Field
+716884,82,Oakland Coliseum
+716885,69,Comerica Park
+716877,73,Yankee Stadium
+716903,76,Angel Stadium
+716879,82,Citizens Bank Park
+716886,76,PNC Park
+716890,85,Angel Stadium
+716880,72,Tropicana Field
+716875,72,Progressive Field
+716873,73,Minute Maid Park
+716870,84,PNC Park
+716869,72,Tropicana Field
+716868,77,Chase Field
+716871,78,Progressive Field
+716865,79,Oriole Park at Camden Yards
+716872,74,Yankee Stadium
+716867,84,Target Field
+716864,91,Guaranteed Rate Field
+716858,76,Comerica Park
+716855,76,Citi Field
+716857,75,American Family Field
+716854,72,Tropicana Field
+716860,77,Rogers Centre
+716856,77,Guaranteed Rate Field
+716861,85,Citizens Bank Park
+716863,72,loanDepot park
+716866,70,Fenway Park
+716852,64,Oracle Park
+716862,80,PNC Park
+716851,78,Chase Field
+716853,74,T-Mobile Park
+716859,85,Oriole Park at Camden Yards
+716850,84,Target Field
+718593,59,Rogers Centre
+718597,82,Great American Ball Park
+718591,79,Busch Stadium
+718590,86,Yankee Stadium
+718589,55,Petco Park
+718596,84,Oriole Park at Camden Yards
+718594,72,Tropicana Field
+716847,85,Citizens Bank Park
+716839,72,Target Field
+716845,72,Tropicana Field
+716848,64,Oracle Park
+716841,72,Guaranteed Rate Field
+716844,72,loanDepot park
+716843,75,Comerica Park
+716838,67,American Family Field
+716849,83,Fenway Park
+716837,90,Oriole Park at Camden Yards
+716833,79,Chase Field
+716832,79,T-Mobile Park
+716842,79,PNC Park
+716846,68,Rogers Centre
+716840,82,Citi Field
+716827,72,loanDepot park
+716829,79,Citi Field
+716826,71,Guaranteed Rate Field
+716820,77,T-Mobile Park
+716830,71,Comerica Park
+716822,71,American Family Field
+716825,68,Rogers Centre
+716835,86,Citizens Bank Park
+716828,72,Tropicana Field
+716834,73,PNC Park
+716821,78,Chase Field
+716824,71,Target Field
+716831,74,Fenway Park
+716836,90,Oriole Park at Camden Yards
+716819,70,Oracle Park
+716811,83,Kauffman Stadium
+716809,79,Busch Stadium
+716817,77,Citizens Bank Park
+716805,83,Dodger Stadium
+716814,70,Fenway Park
+716808,74,Comerica Park
+716810,73,Wrigley Field
+716816,68,Rogers Centre
+716812,79,Coors Field
+716815,79,Oriole Park at Camden Yards
+716818,73,Citi Field
+716823,67,Oracle Park
+716804,67,T-Mobile Park
+716813,83,Target Field
+716803,74,Oracle Park
+716798,70,Wrigley Field
+716807,72,loanDepot park
+716793,85,Kauffman Stadium
+716801,71,Rogers Centre
+716796,80,Target Field
+716795,74,Comerica Park
+716791,82,Coors Field
+716799,76,Citi Field
+716802,69,Fenway Park
+716800,79,Oriole Park at Camden Yards
+716797,85,Busch Stadium
+716790,60,T-Mobile Park
+716806,78,Citizens Bank Park
+716792,83,Dodger Stadium
+716785,67,Rogers Centre
+716786,82,Oriole Park at Camden Yards
+716779,67,Wrigley Field
+716781,64,Comerica Park
+716782,79,Busch Stadium
+716778,72,loanDepot park
+716789,73,Oracle Park
+716788,69,T-Mobile Park
+716773,91,Coors Field
+716774,82,Dodger Stadium
+716784,74,Target Field
+716780,83,Kauffman Stadium
+716787,83,Citizens Bank Park
+716794,78,Fenway Park
+716783,81,Citi Field
+716768,78,Dodger Stadium
+716775,68,Comerica Park
+716777,71,Petco Park
+716776,78,Nationals Park
+716764,87,Kauffman Stadium
+716761,72,Petco Park
+716757,73,Dodger Stadium
+716769,72,Citi Field
+716762,77,Guaranteed Rate Field
+716765,77,American Family Field
+716766,80,Busch Stadium
+716767,73,Progressive Field
+716763,73,Minute Maid Park
+716770,84,Great American Ball Park
+718700,80,Great American Ball Park
+716758,65,Oakland Coliseum
+716772,74,Globe Life Field
+716756,74,Chase Field
+716759,95,Coors Field
+716771,75,Nationals Park
+716743,76,Petco Park
+716747,78,Chase Field
+716746,73,Minute Maid Park
+716748,95,Coors Field
+716753,87,Great American Ball Park
+716745,85,American Family Field
+716750,94,Kauffman Stadium
+716754,79,Progressive Field
+716741,76,Dodger Stadium
+716755,72,Oakland Coliseum
+716751,71,Citi Field
+716744,87,Busch Stadium
+716760,84,Nationals Park
+716749,86,Guaranteed Rate Field
+716752,74,Globe Life Field
+716739,92,Kauffman Stadium
+716732,78,Chase Field
+716733,89,Busch Stadium
+716734,90,Guaranteed Rate Field
+716737,74,Globe Life Field
+716725,76,Dodger Stadium
+716735,73,Minute Maid Park
+716740,91,Nationals Park
+716738,84,Great American Ball Park
+716728,75,Petco Park
+716736,89,American Family Field
+716729,84,Progressive Field
+716742,87,Citi Field
+716731,71,Oakland Coliseum
+716730,86,Coors Field
+716723,89,Wrigley Field
+716718,86,PNC Park
+716720,74,Petco Park
+716722,72,Tropicana Field
+716721,78,Chase Field
+716681,91,Kauffman Stadium
+716713,74,Angel Stadium
+716719,84,Progressive Field
+716724,74,Globe Life Field
+716726,69,Oakland Coliseum
+716727,92,Great American Ball Park
+718592,73,Nationals Park
+718575,59,Dodger Stadium
+718586,81,Great American Ball Park
+718584,72,loanDepot park
+718578,56,Oakland Coliseum
+718574,59,Petco Park
+718585,80,Comerica Park
+718582,78,Busch Stadium
+718587,59,Rogers Centre
+718588,78,Yankee Stadium
+718583,72,Guaranteed Rate Field
+718581,73,Minute Maid Park
+718580,58,Fenway Park
+718579,77,Kauffman Stadium
+718577,56,T-Mobile Park
+716711,87,Yankee Stadium
+716717,86,Progressive Field
+716706,71,Angel Stadium
+716705,74,Globe Life Field
+716712,89,Great American Ball Park
+716715,92,Nationals Park
+716714,90,PNC Park
+716707,68,Oakland Coliseum
+716716,72,Tropicana Field
+716704,92,Kauffman Stadium
+716709,84,Truist Park
+716703,71,Petco Park
+716702,78,Chase Field
+716710,72,loanDepot park
+716708,84,Wrigley Field
+716690,77,Angel Stadium
+716691,74,Petco Park
+716696,72,Tropicana Field
+716687,74,Globe Life Field
+716694,90,Yankee Stadium
+716693,83,Great American Ball Park
+716697,87,PNC Park
+716688,79,Kauffman Stadium
+716695,72,loanDepot park
+716700,87,Progressive Field
+716689,83,Truist Park
+716699,80,Wrigley Field
+716701,97,Nationals Park
+716698,70,Oakland Coliseum
+716692,75,Chase Field
+716683,72,Tropicana Field
+716680,84,Truist Park
+716682,72,loanDepot park
+716686,90,Yankee Stadium
+716685,66,Wrigley Field
+716684,79,Angel Stadium
+716678,66,Wrigley Field
+716675,67,Comerica Park
+716669,73,Minute Maid Park
+716671,72,Tropicana Field
+716666,75,Target Field
+716674,83,Truist Park
+716667,86,Angel Stadium
+716668,63,Oracle Park
+716676,89,Nationals Park
+716673,68,Rogers Centre
+716665,74,Globe Life Field
+716679,80,Citizens Bank Park
+716672,82,Fenway Park
+716670,75,Yankee Stadium
+716677,77,Great American Ball Park
+716661,68,Rogers Centre
+716660,70,Wrigley Field
+716662,72,Nationals Park
+716655,76,Great American Ball Park
+716650,87,Angel Stadium
+716654,74,Target Field
+716658,67,Comerica Park
+716663,67,Oracle Park
+716653,73,Citizens Bank Park
+716651,80,Truist Park
+716649,73,Minute Maid Park
+716659,76,Yankee Stadium
+716664,72,Fenway Park
+716656,72,Tropicana Field
+716657,74,Globe Life Field
+716646,70,Yankee Stadium
+716642,76,Great American Ball Park
+716639,69,Target Field
+716641,70,Rogers Centre
+716647,80,Nationals Park
+716640,73,Minute Maid Park
+716648,71,Comerica Park
+716645,72,Tropicana Field
+716652,73,Fenway Park
+716634,67,Oracle Park
+716633,88,Angel Stadium
+716643,74,Citizens Bank Park
+716644,83,Truist Park
+716637,74,Globe Life Field
+716638,75,Wrigley Field
+716623,69,T-Mobile Park
+716626,70,American Family Field
+717664,78,Citizens Bank Park
+716630,72,Rogers Centre
+716635,77,PNC Park
+716625,66,Coors Field
+716590,76,Citizens Bank Park
+716624,73,Minute Maid Park
+716632,65,Oracle Park
+716629,72,Target Field
+716627,73,Citi Field
+716636,85,Oriole Park at Camden Yards
+716622,76,Dodger Stadium
+716608,73,Dodger Stadium
+716613,63,Target Field
+716611,69,Guaranteed Rate Field
+716618,83,Citizens Bank Park
+716610,68,American Family Field
+716621,86,Oriole Park at Camden Yards
+716614,73,Minute Maid Park
+716620,66,PNC Park
+716612,74,Fenway Park
+716606,63,T-Mobile Park
+716617,69,Comerica Park
+716615,78,Citi Field
+716628,74,Fenway Park
+716619,64,Oracle Park
+716609,75,Coors Field
+716631,65,Guaranteed Rate Field
+716616,68,Rogers Centre
+716603,81,Citizens Bank Park
+716604,81,Oriole Park at Camden Yards
+716602,70,T-Mobile Park
+716595,77,Citi Field
+716594,65,Rogers Centre
+716601,64,Comerica Park
+716592,70,American Family Field
+716589,71,Dodger Stadium
+716600,70,PNC Park
+716605,66,Oracle Park
+716599,76,Coors Field
+716598,64,Guaranteed Rate Field
+716607,60,Target Field
+716596,73,Minute Maid Park
+716587,65,Rogers Centre
+716580,67,Guaranteed Rate Field
+716597,75,Fenway Park
+716588,78,Citi Field
+716586,73,Oriole Park at Camden Yards
+716584,67,Comerica Park
+716591,67,PNC Park
+716593,70,Fenway Park
+716585,70,American Family Field
+718568,70,Busch Stadium
+718571,76,Comerica Park
+718563,46,Kauffman Stadium
+718562,73,Minute Maid Park
+718576,56,Fenway Park
+718560,64,Petco Park
+718570,77,Guaranteed Rate Field
+718573,72,Nationals Park
+718569,63,Rogers Centre
+718565,58,Oakland Coliseum
+718561,51,T-Mobile Park
+718572,68,Yankee Stadium
+718567,72,loanDepot park
+718566,79,Great American Ball Park
+718564,64,Dodger Stadium
+718553,43,Guaranteed Rate Field
+718557,65,Yankee Stadium
+718556,66,Rogers Centre
+718549,62,Petco Park
+718547,63,Dodger Stadium
+718559,54,Fenway Park
+718554,57,Great American Ball Park
+718550,72,loanDepot park
+718545,48,T-Mobile Park
+718551,51,Kauffman Stadium
+718552,73,Minute Maid Park
+718555,79,Nationals Park
+718548,47,Busch Stadium
+718546,59,Oakland Coliseum
+718544,72,loanDepot park
+718535,72,Coors Field
+718536,56,Oakland Coliseum
+718537,73,Minute Maid Park
+718539,69,Kauffman Stadium
+718532,58,Dodger Stadium
+718533,58,Petco Park
+718538,67,Busch Stadium
+718534,48,T-Mobile Park
+718542,52,Great American Ball Park
+718540,50,Fenway Park
+718766,58,Petco Park
+718764,73,Minute Maid Park
+718763,45,T-Mobile Park
+718771,80,loanDepot park
+718765,56,Dodger Stadium
+718525,53,Guaranteed Rate Field
+718516,59,Dodger Stadium
+718543,54,Guaranteed Rate Field
+718523,53,Oakland Coliseum
+718526,66,Great American Ball Park
+718517,46,T-Mobile Park
+718541,46,Comerica Park
+718524,54,Fenway Park
+718519,60,Petco Park
+718531,69,Nationals Park
+718520,73,Minute Maid Park
+718522,80,Kauffman Stadium
+718521,73,Coors Field
+718528,72,loanDepot park
+718530,39,Comerica Park
+718527,71,Busch Stadium
+718529,52,Yankee Stadium
+718505,46,Fenway Park
+718518,74,Nationals Park
+718504,61,Yankee Stadium
+718514,73,Kauffman Stadium
+718507,64,Petco Park
+718510,60,Guaranteed Rate Field
+718502,48,T-Mobile Park
+718501,73,Minute Maid Park
+718511,72,loanDepot park
+718506,56,Oakland Coliseum
+718515,68,Great American Ball Park
+718509,55,Coors Field
+718513,47,Comerica Park
+718512,78,Busch Stadium
+718508,68,Dodger Stadium
+718497,55,Fenway Park
+718496,63,Yankee Stadium
+718500,83,PNC Park
+718503,59,Oracle Park
+718494,82,Chase Field
+718498,75,Citizens Bank Park
+718499,70,Wrigley Field
+718486,72,Tropicana Field
+718491,53,Wrigley Field
+718485,83,Angel Stadium
+718490,73,Globe Life Field
+718483,62,American Family Field
+718484,85,Chase Field
+718489,75,Truist Park
+718480,62,Oracle Park
+718495,80,Oriole Park at Camden Yards
+718481,52,T-Mobile Park
+718493,73,Citizens Bank Park
+718482,37,Target Field
+718487,60,Yankee Stadium
+718492,82,PNC Park
+718473,50,Progressive Field
+718477,72,Tropicana Field
+718464,59,T-Mobile Park
+718478,66,Oracle Park
+718468,35,Target Field
+718469,74,Globe Life Field
+718479,41,Wrigley Field
+718474,56,PNC Park
+718476,60,Yankee Stadium
+718472,59,Oriole Park at Camden Yards
+718471,68,Truist Park
+718467,93,Chase Field
+718488,49,Progressive Field
+718475,78,Citizens Bank Park
+718470,62,American Family Field
+718466,77,Angel Stadium
+718458,63,Citizens Bank Park
+718462,64,Truist Park
+718450,54,T-Mobile Park
+718465,62,Yankee Stadium
+718456,76,Chase Field
+718457,72,Tropicana Field
+718463,47,PNC Park
+718460,46,Progressive Field
+718454,40,Target Field
+718451,42,Wrigley Field
+718459,64,Oriole Park at Camden Yards
+718453,74,Globe Life Field
+718461,61,American Family Field
+718452,76,Angel Stadium
+718455,61,Oracle Park
+718446,58,Oracle Park
+718442,49,Target Field
+718444,68,Rogers Centre
+718443,65,Truist Park
+718438,87,Chase Field
+718445,51,Great American Ball Park
+718441,62,American Family Field
+718447,59,Oriole Park at Camden Yards
+718448,44,Progressive Field
+718449,72,Tropicana Field
+718437,67,Angel Stadium
+718429,69,Truist Park
+718426,41,Wrigley Field
+718433,68,Rogers Centre
+718434,60,Great American Ball Park
+718430,57,Citizens Bank Park
+718427,50,Target Field
+718436,72,Tropicana Field
+718440,45,Progressive Field
+718432,56,PNC Park
+718431,57,Citi Field
+718439,63,Oracle Park
+718422,86,Chase Field
+718425,65,Angel Stadium
+718428,64,American Family Field
+718435,59,Oriole Park at Camden Yards
+718408,73,Angel Stadium
+718416,61,Oriole Park at Camden Yards
+718424,58,Great American Ball Park
+718412,54,Citi Field
+718419,63,American Family Field
+718407,43,Wrigley Field
+718418,82,Chase Field
+718411,55,Truist Park
+718423,62,Oracle Park
+718414,72,Tropicana Field
+718421,46,Progressive Field
+718420,68,Rogers Centre
+718413,61,PNC Park
+718415,54,Citizens Bank Park
+718417,50,Target Field
+718405,58,Comerica Park
+718409,67,Oracle Park
+718396,56,Guaranteed Rate Field
+718406,60,Wrigley Field
+718397,67,Globe Life Field
+718403,60,PNC Park
+718398,55,Citi Field
+718402,74,Angel Stadium
+718404,55,Citizens Bank Park
+718400,58,Target Field
+718410,57,Truist Park
+718756,45,Great American Ball Park
+718758,39,Wrigley Field
+718760,73,Minute Maid Park
+718753,73,Nationals Park
+718759,46,Busch Stadium
+718752,71,Globe Life Field
+718755,72,loanDepot park
+718751,55,Kauffman Stadium
+718757,58,Oakland Coliseum
+718749,64,Dodger Stadium
+718746,47,T-Mobile Park
+718750,60,Petco Park
+718762,68,Yankee Stadium
+718754,72,Tropicana Field
+718761,56,Fenway Park
+718382,62,Dodger Stadium
+718389,73,Minute Maid Park
+718386,65,American Family Field
+718395,52,Fenway Park
+718392,68,Rogers Centre
+718388,74,Globe Life Field
+718393,55,Guaranteed Rate Field
+718391,72,loanDepot park
+718390,57,Coors Field
+718387,48,Target Field
+718380,64,Oakland Coliseum
+718394,52,Citi Field
+718374,74,Globe Life Field
+718377,63,Oakland Coliseum
+718375,72,loanDepot park
+718379,68,Rogers Centre
+718372,73,Minute Maid Park
+718373,56,Guaranteed Rate Field
+718383,60,Nationals Park
+718401,63,Comerica Park
+718399,69,Nationals Park
+718381,53,Comerica Park
+718369,66,Dodger Stadium
+718378,47,Target Field
+718376,66,American Family Field
+718385,49,Fenway Park
+718366,72,Coors Field
+718384,81,Estadio Alfredo Harp Helu
+718367,62,Nationals Park
+718370,51,Fenway Park
+718356,82,Globe Life Field
+718368,80,Estadio Alfredo Harp Helu
+718355,46,Guaranteed Rate Field
+718363,68,Rogers Centre
+718362,45,Target Field
+718357,63,Oakland Coliseum
+718359,67,Dodger Stadium
+718358,65,Coors Field
+718364,72,loanDepot park
+718365,64,American Family Field
+718354,73,Minute Maid Park
+718360,51,Comerica Park
+718352,59,Citi Field
+718353,59,Fenway Park
+718349,57,Nationals Park
+718345,60,Petco Park
+718351,58,Yankee Stadium
+718361,62,Citi Field
+718343,59,Dodger Stadium
+718350,73,Minute Maid Park
+718337,76,Minute Maid Park
+718339,55,Yankee Stadium
+718346,72,loanDepot park
+718335,61,Petco Park
+718332,54,Oakland Coliseum
+718347,72,Tropicana Field
+718338,66,Busch Stadium
+718341,50,Fenway Park
+718331,57,Dodger Stadium
+718334,66,Coors Field
+718342,78,Globe Life Field
+718336,67,Kauffman Stadium
+718340,48,Guaranteed Rate Field
+718344,53,Nationals Park
+718323,50,Fenway Park
+718320,68,Busch Stadium
+718326,73,Minute Maid Park
+718328,72,Tropicana Field
+718322,48,Guaranteed Rate Field
+718327,64,Dodger Stadium
+718319,53,Oakland Coliseum
+718330,63,Petco Park
+718329,52,Comerica Park
+718324,53,Yankee Stadium
+718325,79,Globe Life Field
+718333,54,Nationals Park
+718321,72,loanDepot park
+718315,77,Coors Field
+718348,50,Comerica Park
+718314,72,Kauffman Stadium
+718308,72,loanDepot park
+718312,72,Kauffman Stadium
+718318,59,Comerica Park
+718310,63,Guaranteed Rate Field
+718304,59,Oakland Coliseum
+718313,70,Coors Field
+718311,72,Busch Stadium
+718316,47,Fenway Park
+718309,72,Tropicana Field
+718317,60,Nationals Park
+718307,67,PNC Park
+718298,59,Truist Park
+718294,65,Angel Stadium
+718305,75,Great American Ball Park
+718302,55,Citi Field
+718301,59,Citizens Bank Park
+718297,51,T-Mobile Park
+718299,76,Kauffman Stadium
+718303,69,Wrigley Field
+718293,55,Oracle Park
+718295,63,Petco Park
+718296,79,Chase Field
+718306,59,Progressive Field
+718292,70,Busch Stadium
+718300,72,Tropicana Field
+718280,93,Kauffman Stadium
+718275,66,Angel Stadium
+718287,59,Oracle Park
+718286,72,PNC Park
+718279,63,Petco Park
+718281,76,Great American Ball Park
+718290,71,Citi Field
+718282,85,Chase Field
+718283,73,Truist Park
+718285,62,Progressive Field
+718288,73,Busch Stadium
+718284,72,Citizens Bank Park
+718291,72,Tropicana Field
+718274,58,T-Mobile Park
+718289,65,Wrigley Field
+718269,77,Wrigley Field
+718273,68,Progressive Field
+718262,77,Great American Ball Park
+718268,86,Kauffman Stadium
+718277,73,Truist Park
+718271,72,Tropicana Field
+718278,60,PNC Park
+718263,75,Chase Field
+718267,60,Oracle Park
+718265,51,T-Mobile Park
+718266,67,Petco Park
+718270,76,Citizens Bank Park
+718272,87,Busch Stadium
+718276,75,Citi Field
+718264,70,Angel Stadium
+718740,73,Minute Maid Park
+718739,72,Globe Life Field
+718734,56,Oakland Coliseum
+718744,49,Great American Ball Park
+718747,47,Yankee Stadium
+718733,62,Petco Park
+718743,54,Nationals Park
+718737,63,Busch Stadium
+718735,44,T-Mobile Park
+718738,47,Wrigley Field
+718741,72,loanDepot park
+718748,43,Fenway Park
+718745,72,Kauffman Stadium
+718736,68,Dodger Stadium
+718742,72,Tropicana Field
+718258,71,PNC Park
+718259,81,Oriole Park at Camden Yards
+718253,82,Kauffman Stadium
+718256,48,Wrigley Field
+718254,69,Angel Stadium
+718257,64,American Family Field
+718260,57,Oracle Park
+718261,55,Progressive Field
+718251,61,T-Mobile Park
+718249,89,Chase Field
+718255,73,Yankee Stadium
+718238,69,Kauffman Stadium
+718250,57,Oracle Park
+718236,91,Chase Field
+718237,63,Angel Stadium
+718248,60,Progressive Field
+718239,61,T-Mobile Park
+718246,65,Oriole Park at Camden Yards
+718245,77,Truist Park
+718247,62,Yankee Stadium
+718242,66,Target Field
+718244,70,Citizens Bank Park
+718240,59,Wrigley Field
+718243,73,Great American Ball Park
+718252,72,PNC Park
+718241,67,American Family Field
+718233,72,Citizens Bank Park
+718225,76,Great American Ball Park
+718220,81,Truist Park
+718234,62,Progressive Field
+718222,81,Kauffman Stadium
+718224,77,Target Field
+718229,56,T-Mobile Park
+718226,72,Chase Field
+718227,72,Oriole Park at Camden Yards
+718228,71,American Family Field
+718230,57,Oracle Park
+718235,69,Angel Stadium
+718221,65,Wrigley Field
+718232,65,Yankee Stadium
+718231,66,PNC Park
+718217,60,Oakland Coliseum
+718215,88,Chase Field
+718216,71,Target Field
+718223,76,Great American Ball Park
+718218,67,Kauffman Stadium
+718219,78,Yankee Stadium
+718206,72,Rogers Centre
+718204,70,American Family Field
+718201,64,Dodger Stadium
+718212,83,loanDepot park
+718214,81,Nationals Park
+718205,70,Progressive Field
+718210,82,Yankee Stadium
+718209,69,Target Field
+718207,58,Guaranteed Rate Field
+718199,93,Chase Field
+718200,65,Oakland Coliseum
+718213,82,Oriole Park at Camden Yards
+718208,75,Comerica Park
+718211,82,Fenway Park
+718202,59,Coors Field
+718196,80,Fenway Park
+718191,65,Progressive Field
+718198,72,loanDepot park
+718190,74,Oakland Coliseum
+718195,63,Target Field
+718192,64,Rogers Centre
+718184,78,Chase Field
+718185,72,Dodger Stadium
+718189,59,Guaranteed Rate Field
+718193,67,Oriole Park at Camden Yards
+718197,77,Yankee Stadium
+718183,68,American Family Field
+718194,73,Comerica Park
+718188,57,Coors Field
+718203,67,Nationals Park
+718178,72,loanDepot park
+718187,66,Fenway Park
+718180,68,Yankee Stadium
+718174,55,Coors Field
+718172,71,Oakland Coliseum
+718182,64,Progressive Field
+718169,74,Chase Field
+718176,58,Guaranteed Rate Field
+718175,60,Target Field
+718179,75,Oriole Park at Camden Yards
+718173,66,Comerica Park
+718186,79,Nationals Park
+718168,74,Dodger Stadium
+718177,65,American Family Field
+718181,53,Rogers Centre
+718165,74,Globe Life Field
+718166,74,Busch Stadium
+718162,63,Petco Park
+718171,74,Oriole Park at Camden Yards
+718160,63,Oakland Coliseum
+718167,76,Nationals Park
+718163,72,Fenway Park
+718161,63,Coors Field
+718159,65,Dodger Stadium
+718164,72,Rogers Centre
+718158,73,Minute Maid Park
+718170,60,Oracle Park
+718153,72,loanDepot park
+718157,68,Rogers Centre
+718141,63,Dodger Stadium
+718144,65,Petco Park
+718156,64,Oracle Park
+718155,78,Comerica Park
+718151,69,Busch Stadium
+718149,77,Fenway Park
+718147,61,Guaranteed Rate Field
+718150,78,Citi Field
+718154,77,Oriole Park at Camden Yards
+718148,74,Globe Life Field
+718152,73,Minute Maid Park
+718146,70,Oakland Coliseum
+718145,73,Coors Field
+718133,53,Fenway Park
+718134,68,Rogers Centre
+718135,60,Citi Field
+718142,53,Comerica Park
+718139,68,Oakland Coliseum
+718129,50,Guaranteed Rate Field
+718131,78,Busch Stadium
+718137,67,Oriole Park at Camden Yards
+718126,74,Globe Life Field
+718132,72,loanDepot park
+718140,62,Petco Park
+718138,77,Coors Field
+718127,73,Minute Maid Park
+718136,69,Dodger Stadium
+718143,60,Oracle Park
+718722,56,Petco Park
+718726,74,Globe Life Field
+718731,65,American Family Field
+718727,77,Busch Stadium
+718724,50,Fenway Park
+718732,70,Nationals Park
+718728,71,Great American Ball Park
+718723,73,Minute Maid Park
+718718,57,Dodger Stadium
+718730,57,Guaranteed Rate Field
+718720,45,T-Mobile Park
+718721,54,Oakland Coliseum
+718719,73,Kauffman Stadium
+718725,53,Yankee Stadium
+718729,83,loanDepot park
+718125,62,Guaranteed Rate Field
+718124,81,Busch Stadium
+718121,68,Rogers Centre
+718128,67,Oriole Park at Camden Yards
+718130,72,loanDepot park
+718122,58,Citi Field
+718107,62,Petco Park
+718106,66,Angel Stadium
+718114,74,Globe Life Field
+718113,67,Busch Stadium
+718110,74,Truist Park
+718105,57,Oracle Park
+718111,61,Guaranteed Rate Field
+718118,74,PNC Park
+718119,62,Citi Field
+718115,68,Rogers Centre
+718123,72,Nationals Park
+718112,73,Minute Maid Park
+718116,69,Citizens Bank Park
+718117,72,Tropicana Field
+718120,77,Great American Ball Park
+718092,63,Petco Park
+718096,67,Angel Stadium
+718109,72,Busch Stadium
+718097,69,Citizens Bank Park
+718098,73,Minute Maid Park
+718100,74,Globe Life Field
+718103,58,Oracle Park
+718102,59,Rogers Centre
+718104,59,Guaranteed Rate Field
+718094,75,Truist Park
+718093,72,Tropicana Field
+718101,62,PNC Park
+718095,71,Great American Ball Park
+718108,78,Nationals Park
+718087,59,Rogers Centre
+718085,68,Great American Ball Park
+718082,70,Citi Field
+718086,73,Minute Maid Park
+718083,75,Busch Stadium
+718080,73,Angel Stadium
+718084,75,Guaranteed Rate Field
+718099,69,Citi Field
+718076,73,Globe Life Field
+718081,72,Tropicana Field
+718088,70,Citizens Bank Park
+718078,63,Oracle Park
+718091,71,PNC Park
+718090,77,Truist Park
+718089,72,Nationals Park
+718079,68,Petco Park
+718073,77,Citizens Bank Park
+718062,61,T-Mobile Park
+718074,65,Truist Park
+718075,77,PNC Park
+718068,69,American Family Field
+718077,72,Tropicana Field
+718072,66,Progressive Field
+718069,75,Coors Field
+718071,77,Great American Ball Park
+718066,77,Kauffman Stadium
+718070,68,Angel Stadium
+718067,81,Target Field
+718054,83,Target Field
+718065,77,PNC Park
+718057,70,Truist Park
+718064,70,Nationals Park
+718058,63,Yankee Stadium
+718053,62,Angel Stadium
+718056,73,American Family Field
+718060,69,Citizens Bank Park
+718059,80,Great American Ball Park
+718061,72,Tropicana Field
+718049,80,Kauffman Stadium
+718050,62,T-Mobile Park
+718063,69,Progressive Field
+718055,71,Wrigley Field
+718051,75,Coors Field
+718047,70,Target Field
+718038,51,Wrigley Field
+718041,80,Great American Ball Park
+718034,64,Angel Stadium
+718042,77,Truist Park
+718043,77,Citizens Bank Park
+718045,70,PNC Park
+718040,62,Yankee Stadium
+718052,79,Nationals Park
+718048,67,Progressive Field
+718039,76,Kauffman Stadium
+718046,65,American Family Field
+718037,67,T-Mobile Park
+718036,67,Coors Field
+718044,72,Tropicana Field
+718024,52,Wrigley Field
+718035,70,Nationals Park
+718026,80,Truist Park
+718029,66,Yankee Stadium
+718030,65,Great American Ball Park
+718032,72,Tropicana Field
+718031,62,Comerica Park
+718033,73,Coors Field
+718028,65,American Family Field
+718025,76,T-Mobile Park
+718027,59,Wrigley Field
+718022,63,Progressive Field
+718014,79,Kauffman Stadium
+718013,79,Target Field
+718021,71,Comerica Park
+718016,63,Coors Field
+718012,77,T-Mobile Park
+718015,64,Angel Stadium
+718018,72,Tropicana Field
+718017,67,American Family Field
+718009,60,Oakland Coliseum
+718020,73,Oriole Park at Camden Yards
+718019,76,Truist Park
+718023,72,Yankee Stadium
+718010,77,Chase Field
+717999,70,American Family Field
+717998,66,Angel Stadium
+717997,75,Truist Park
+717996,67,Progressive Field
+718004,60,T-Mobile Park
+718001,78,Oriole Park at Camden Yards
+718003,62,Oakland Coliseum
+718005,72,Comerica Park
+718008,79,Target Field
+717991,75,Chase Field
+718006,72,Yankee Stadium
+718000,78,Kauffman Stadium
+718011,68,Coors Field
+718002,72,Tropicana Field
+718007,64,Wrigley Field
+718705,73,Minute Maid Park
+718714,83,loanDepot park
+718706,50,T-Mobile Park
+718707,54,Oakland Coliseum
+718703,58,Dodger Stadium
+718712,63,American Family Field
+718711,82,Busch Stadium
+718717,57,Petco Park
+718708,80,Kauffman Stadium
+718709,74,Globe Life Field
+718716,76,Great American Ball Park
+718713,50,Fenway Park
+718715,80,Nationals Park
+718710,65,Yankee Stadium
+717981,76,Chase Field
+717985,79,Kauffman Stadium
+717989,78,Comerica Park
+717992,77,Truist Park
+717995,76,Yankee Stadium
+717983,56,T-Mobile Park
+717988,78,Target Field
+717986,74,American Family Field
+717987,69,Wrigley Field
+717993,71,Progressive Field
+717984,68,Angel Stadium
+717980,59,Oakland Coliseum
+717994,72,Tropicana Field
+717990,71,Oriole Park at Camden Yards
+717982,76,Coors Field
+717975,85,Busch Stadium
+717976,71,Wrigley Field
+717974,81,Oriole Park at Camden Yards
+717971,74,Guaranteed Rate Field
+717968,73,Minute Maid Park
+717979,80,Comerica Park
+717978,64,Oracle Park
+717973,66,Dodger Stadium
+717977,75,Chase Field
+717969,68,T-Mobile Park
+717970,65,Oakland Coliseum
+717960,88,Busch Stadium
+717952,60,T-Mobile Park
+717962,65,Citi Field
+717965,73,Rogers Centre
+717961,71,Wrigley Field
+717959,73,Guaranteed Rate Field
+717966,65,Fenway Park
+717963,72,loanDepot park
+717967,73,Oriole Park at Camden Yards
+717958,60,Oakland Coliseum
+717957,64,Dodger Stadium
+717955,92,Chase Field
+717972,60,Oracle Park
+717956,73,Minute Maid Park
+717964,86,Comerica Park
+717944,69,Citi Field
+717938,73,Minute Maid Park
+717953,60,Oracle Park
+717948,79,Fenway Park
+717951,85,Comerica Park
+717945,72,loanDepot park
+717954,65,Dodger Stadium
+717940,87,Chase Field
+717939,60,T-Mobile Park
+717943,84,Guaranteed Rate Field
+717950,83,Wrigley Field
+717947,75,Rogers Centre
+717946,79,Oriole Park at Camden Yards
+717949,61,Oakland Coliseum
+717942,75,Rogers Centre
+717932,85,Fenway Park
+717934,82,Citi Field
+717933,74,Chase Field
+717937,85,Target Field
+717936,73,Minute Maid Park
+717941,72,loanDepot park
+717929,73,Citi Field
+717926,73,Minute Maid Park
+717921,66,Petco Park
+717930,90,PNC Park
+717920,60,Oracle Park
+717931,92,Great American Ball Park
+717919,93,Chase Field
+717922,74,Globe Life Field
+717917,67,Dodger Stadium
+717927,72,loanDepot park
+717935,90,Nationals Park
+717925,76,Guaranteed Rate Field
+717924,83,Target Field
+717923,84,Kauffman Stadium
+717903,65,Petco Park
+717916,62,Oracle Park
+717910,65,Citi Field
+717908,73,Minute Maid Park
+717914,79,Nationals Park
+717901,76,Chase Field
+717915,79,Guaranteed Rate Field
+717909,89,Kauffman Stadium
+717918,52,Fenway Park
+717913,88,Target Field
+717906,91,Great American Ball Park
+717911,72,loanDepot park
+717885,48,Fenway Park
+717905,72,Dodger Stadium
+717912,72,Globe Life Field
+717907,90,PNC Park
+717892,77,Chase Field
+717897,81,Great American Ball Park
+717890,62,Oracle Park
+717902,69,Nationals Park
+717888,72,Dodger Stadium
+717898,73,PNC Park
+717893,88,Kauffman Stadium
+717904,52,Fenway Park
+717891,71,Guaranteed Rate Field
+717899,73,Minute Maid Park
+717900,64,Citi Field
+717896,72,loanDepot park
+717895,85,Target Field
+717894,74,Globe Life Field
+717889,66,Petco Park
+717884,73,PNC Park
+717880,63,Petco Park
+717886,76,Citizens Bank Park
+717878,68,Rogers Centre
+717879,74,Globe Life Field
+717883,80,Great American Ball Park
+717928,58,Fenway Park
+717887,72,loanDepot park
+717873,68,Progressive Field
+717874,76,PNC Park
+717864,65,Petco Park
+717882,72,Tropicana Field
+717871,72,Rogers Centre
+717872,74,Truist Park
+717877,68,Yankee Stadium
+717867,71,American Family Field
+717868,74,Globe Life Field
+717861,65,Angel Stadium
+717870,81,Great American Ball Park
+717875,75,Citizens Bank Park
+717876,72,loanDepot park
+717881,80,Nationals Park
+717869,73,Coors Field
+718691,48,T-Mobile Park
+718702,41,Fenway Park
+718699,48,Yankee Stadium
+718695,67,Guaranteed Rate Field
+718701,84,loanDepot park
+718696,73,Minute Maid Park
+718697,60,Busch Stadium
+718692,52,Kauffman Stadium
+718689,57,Oakland Coliseum
+718704,83,Nationals Park
+718698,66,American Family Field
+718694,74,Globe Life Field
+717850,86,Truist Park
+717854,74,Globe Life Field
+717855,68,Angel Stadium
+717852,68,Coors Field
+717866,77,Nationals Park
+717851,70,American Family Field
+717853,74,Great American Ball Park
+717856,68,Rogers Centre
+717859,72,Tropicana Field
+717865,69,PNC Park
+717858,65,Progressive Field
+717863,66,Petco Park
+717860,72,loanDepot park
+717862,75,Citizens Bank Park
+717838,71,Angel Stadium
+717857,66,Yankee Stadium
+717843,68,Rogers Centre
+717848,67,Yankee Stadium
+717844,71,Great American Ball Park
+717849,70,American Family Field
+717842,64,Progressive Field
+717846,75,Coors Field
+717845,72,Tropicana Field
+717840,80,Truist Park
+717836,70,PNC Park
+717824,67,Angel Stadium
+717837,73,Citizens Bank Park
+717841,68,Yankee Stadium
+717830,70,Coors Field
+717832,82,Busch Stadium
+717829,83,Truist Park
+717828,71,Guaranteed Rate Field
+717823,60,Oracle Park
+717831,74,American Family Field
+717834,76,Comerica Park
+717839,73,Oriole Park at Camden Yards
+717833,70,Progressive Field
+717827,72,Tropicana Field
+717835,70,Rogers Centre
+717815,75,Progressive Field
+717817,85,Busch Stadium
+717811,82,Citizens Bank Park
+717813,72,Tropicana Field
+717809,64,Angel Stadium
+717820,83,Guaranteed Rate Field
+717814,81,American Family Field
+717818,85,Oriole Park at Camden Yards
+717812,81,PNC Park
+717826,60,Oracle Park
+717825,75,Yankee Stadium
+717821,80,Comerica Park
+717819,73,Coors Field
+717822,70,Rogers Centre
+717816,86,Truist Park
+717803,81,PNC Park
+717802,78,Progressive Field
+717799,69,Angel Stadium
+717805,68,Rogers Centre
+717795,55,Guaranteed Rate Field
+717807,73,Truist Park
+717797,65,Busch Stadium
+717810,76,Yankee Stadium
+717801,72,Tropicana Field
+717800,66,American Family Field
+717804,67,Comerica Park
+717798,66,Coors Field
+717808,87,Oriole Park at Camden Yards
+717806,86,Citizens Bank Park
+717796,61,Oracle Park
+717792,74,Globe Life Field
+717790,64,Comerica Park
+717794,73,Fenway Park
+717789,63,Oakland Coliseum
+717793,73,Kauffman Stadium
+717786,76,T-Mobile Park
+717791,73,Busch Stadium
+717785,90,Chase Field
+717776,65,Dodger Stadium
+717779,77,Citi Field
+717781,80,Busch Stadium
+717775,74,Chase Field
+717778,73,Minute Maid Park
+717783,84,Target Field
+717787,79,Oriole Park at Camden Yards
+717782,61,Wrigley Field
+717777,77,Kauffman Stadium
+717780,74,Globe Life Field
+717773,64,T-Mobile Park
+717772,65,Petco Park
+717788,69,Fenway Park
+717774,62,Oakland Coliseum
+717766,70,Citi Field
+717757,78,Chase Field
+717764,82,Kauffman Stadium
+717759,63,T-Mobile Park
+717769,77,Oriole Park at Camden Yards
+717767,84,Busch Stadium
+717760,65,Dodger Stadium
+717765,74,Globe Life Field
+717758,66,Petco Park
+717762,73,Minute Maid Park
+717761,62,Oakland Coliseum
+717770,66,Comerica Park
+717784,73,Comerica Park
+717771,83,Target Field
+717768,64,Fenway Park
+717763,64,Wrigley Field
+717751,74,Globe Life Field
+717756,68,Oakland Coliseum
+717755,78,Chase Field
+717748,65,Dodger Stadium
+717747,55,Wrigley Field
+717754,81,Truist Park
+717746,73,Minute Maid Park
+717753,79,Oriole Park at Camden Yards
+717752,71,Target Field
+717750,68,Petco Park
+717736,87,Kauffman Stadium
+717733,58,T-Mobile Park
+717735,65,Oakland Coliseum
+717738,77,Target Field
+717740,64,American Family Field
+717739,78,Chase Field
+717741,74,Globe Life Field
+717732,68,Petco Park
+717745,85,Truist Park
+717749,79,Nationals Park
+717737,73,Minute Maid Park
+717743,66,Citi Field
+717731,69,Dodger Stadium
+717744,57,Wrigley Field
+717742,73,Fenway Park
+718686,51,Kauffman Stadium
+718682,51,Coors Field
+718681,81,Truist Park
+718683,75,Chase Field
+718687,46,Guaranteed Rate Field
+718690,47,Comerica Park
+717728,81,Target Field
+717722,53,T-Mobile Park
+717717,70,Petco Park
+717727,73,Minute Maid Park
+717726,86,Kauffman Stadium
+717719,78,Chase Field
+717720,77,American Family Field
+717718,78,Citi Field
+717729,69,Wrigley Field
+717724,89,Truist Park
+717721,72,Dodger Stadium
+717734,79,Nationals Park
+717723,74,Globe Life Field
+717725,66,Oakland Coliseum
+717704,58,T-Mobile Park
+717705,68,Oakland Coliseum
+717706,78,Chase Field
+717702,73,Dodger Stadium
+717710,73,American Family Field
+717715,65,Fenway Park
+717714,81,Nationals Park
+717711,72,Target Field
+717716,84,Truist Park
+717707,73,Minute Maid Park
+717712,66,Kauffman Stadium
+717708,76,Wrigley Field
+717703,68,Petco Park
+717730,64,Fenway Park
+717713,78,Citi Field
+717709,74,Globe Life Field
+717693,89,Target Field
+717699,86,Nationals Park
+717692,82,Comerica Park
+717700,72,loanDepot park
+717694,73,Minute Maid Park
+717698,85,PNC Park
+717697,61,Oracle Park
+717695,77,Guaranteed Rate Field
+717696,79,American Family Field
+717701,71,Great American Ball Park
+717684,72,Yankee Stadium
+717689,75,Citizens Bank Park
+717678,72,Angel Stadium
+717675,72,Guaranteed Rate Field
+717686,77,PNC Park
+717679,80,Progressive Field
+717691,75,Nationals Park
+717683,89,Target Field
+717682,73,Minute Maid Park
+717681,84,Comerica Park
+717687,72,Tropicana Field
+717688,61,Oracle Park
+717690,72,loanDepot park
+717680,74,American Family Field
+717685,70,Great American Ball Park
+717673,64,Nationals Park
+717666,69,Yankee Stadium
+717674,59,Oracle Park
+717662,76,Angel Stadium
+717676,72,loanDepot park
+717667,74,Guaranteed Rate Field
+717668,82,Comerica Park
+717671,77,PNC Park
+717677,72,Tropicana Field
+717665,90,Target Field
+717672,78,American Family Field
+717663,76,Progressive Field
+717669,75,Great American Ball Park
+717670,73,Minute Maid Park
+717658,86,Target Field
+717654,72,loanDepot park
+717660,71,Progressive Field
+717657,65,Citizens Bank Park
+717661,61,Oracle Park
+717652,69,Yankee Stadium
+717847,65,Nationals Park
+717659,72,Tropicana Field
+717645,75,Guaranteed Rate Field
+717656,72,Citizens Bank Park
+717644,82,Coors Field
+717649,72,Tropicana Field
+717641,60,Oracle Park
+717653,72,loanDepot park
+717647,68,Comerica Park
+717646,68,Rogers Centre
+717651,73,Oriole Park at Camden Yards
+717643,68,Dodger Stadium
+717655,69,Yankee Stadium
+717642,66,Petco Park
+717650,77,Great American Ball Park
+717648,68,Progressive Field
+717635,78,Citizens Bank Park
+717629,82,Guaranteed Rate Field
+717625,74,Progressive Field
+717633,84,Comerica Park
+717626,76,Dodger Stadium
+717638,68,Petco Park
+717640,86,Coors Field
+717634,68,Rogers Centre
+717632,72,Tropicana Field
+717636,76,Yankee Stadium
+717628,82,Oriole Park at Camden Yards
+717630,72,loanDepot park
+717637,81,London Stadium
+717631,86,Great American Ball Park
+717639,62,Oracle Park
+717622,79,Yankee Stadium
+717624,88,Citizens Bank Park
+717610,70,Petco Park
+717618,79,Great American Ball Park
+717627,85,Oriole Park at Camden Yards
+717617,77,Rogers Centre
+717613,86,Progressive Field
+717615,74,Dodger Stadium
+717620,72,loanDepot park
+717614,86,Guaranteed Rate Field
+717619,72,Tropicana Field
+717612,59,Oracle Park
+717621,82,Comerica Park
+717616,73,Coors Field
+717623,87,London Stadium
+717608,74,Angel Stadium
+717602,73,T-Mobile Park
+717609,88,Truist Park
+717606,74,Globe Life Field
+717607,74,Citi Field
+717611,79,Oriole Park at Camden Yards
+718670,64,Angel Stadium
+718671,77,Chase Field
+718677,41,Progressive Field
+718676,66,Truist Park
+718684,47,Target Field
+718673,64,Coors Field
+718680,57,Oracle Park
+718674,64,American Family Field
+718685,57,Citizens Bank Park
+718675,43,Wrigley Field
+718693,56,Citi Field
+718688,55,Oriole Park at Camden Yards
+718678,72,Tropicana Field
+718679,53,PNC Park
+717597,76,Citi Field
+717604,73,Rogers Centre
+717601,73,Oriole Park at Camden Yards
+717596,66,Wrigley Field
+717592,73,Angel Stadium
+717603,68,PNC Park
+717600,86,Truist Park
+717593,78,Chase Field
+717591,87,Kauffman Stadium
+717605,76,Fenway Park
+717598,87,Busch Stadium
+717594,90,Coors Field
+717590,73,T-Mobile Park
+717595,58,Oakland Coliseum
+717599,74,Globe Life Field
+717585,73,PNC Park
+717581,78,Citi Field
+717587,72,T-Mobile Park
+717580,74,Globe Life Field
+717578,84,Coors Field
+717579,59,Oakland Coliseum
+717577,96,Kauffman Stadium
+717576,71,Angel Stadium
+717584,74,Wrigley Field
+717589,79,Oriole Park at Camden Yards
+717586,68,Rogers Centre
+717582,91,Busch Stadium
+717575,78,Chase Field
+717588,85,Truist Park
+717583,77,Fenway Park
+717560,75,Angel Stadium
+717564,74,Rogers Centre
+717565,77,Citi Field
+717569,77,Fenway Park
+717566,85,Busch Stadium
+717567,76,Wrigley Field
+717574,69,Oakland Coliseum
+717571,78,PNC Park
+717570,74,Globe Life Field
+717572,68,Coors Field
+717568,74,Chase Field
+717573,87,Kauffman Stadium
+717549,76,Angel Stadium
+717555,68,Rogers Centre
+717562,83,PNC Park
+717561,73,Oriole Park at Camden Yards
+717551,71,Oakland Coliseum
+717563,85,Citizens Bank Park
+717558,76,Truist Park
+717554,74,Globe Life Field
+717559,86,Wrigley Field
+717553,97,Kauffman Stadium
+717552,66,Coors Field
+717557,89,Great American Ball Park
+717556,77,Citi Field
+717548,75,T-Mobile Park
+717537,75,Kauffman Stadium
+717536,95,Truist Park
+717534,76,T-Mobile Park
+717535,80,Citi Field
+717540,80,PNC Park
+717542,74,Globe Life Field
+717545,90,Busch Stadium
+717546,73,Wrigley Field
+717541,81,Oriole Park at Camden Yards
+717533,69,Angel Stadium
+717539,79,Great American Ball Park
+717538,81,Oakland Coliseum
+717547,80,Rogers Centre
+717543,86,Citizens Bank Park
+717550,76,Busch Stadium
+717544,79,Coors Field
+717532,89,Truist Park
+717527,82,Kauffman Stadium
+717531,73,PNC Park
+717526,82,Great American Ball Park
+717522,80,Angel Stadium
+717530,68,Rogers Centre
+717524,83,Busch Stadium
+717518,79,Oakland Coliseum
+717523,86,Coors Field
+717519,71,T-Mobile Park
+717521,65,Wrigley Field
+717528,87,Citizens Bank Park
+717529,84,Oriole Park at Camden Yards
+717520,74,Globe Life Field
+717525,75,Citi Field
+717506,70,Dodger Stadium
+717505,68,Petco Park
+717516,60,Oracle Park
+717515,72,loanDepot park
+717510,92,Target Field
+717511,83,American Family Field
+717512,78,Progressive Field
+717517,86,Nationals Park
+717514,74,Globe Life Field
+717513,84,Yankee Stadium
+717509,69,Oracle Park
+717508,75,Yankee Stadium
+717499,72,Tropicana Field
+717498,78,Chase Field
+717497,71,Petco Park
+717495,82,Progressive Field
+717504,73,Minute Maid Park
+717496,84,Guaranteed Rate Field
+717503,86,American Family Field
+717502,72,loanDepot park
+717507,83,Nationals Park
+717494,86,Comerica Park
+717501,73,Fenway Park
+717500,79,Target Field
+717492,73,Dodger Stadium
+717484,80,Fenway Park
+717477,78,Chase Field
+717483,81,American Family Field
+717487,86,Yankee Stadium
+717489,72,Minute Maid Park
+717493,86,Nationals Park
+717491,72,Tropicana Field
+717479,69,Dodger Stadium
+717482,75,Target Field
+717486,84,Progressive Field
+717478,68,Petco Park
+717490,62,Oracle Park
+717485,89,Comerica Park
+717488,72,loanDepot park
+717473,72,loanDepot park
+717476,80,Comerica Park
+717474,76,American Family Field
+717468,73,Guaranteed Rate Field
+717467,73,Minute Maid Park
+717462,69,Dodger Stadium
+717471,88,Fenway Park
+717470,78,Chase Field
+717475,85,Yankee Stadium
+717469,77,Progressive Field
+717480,71,Guaranteed Rate Field
+717472,72,Tropicana Field
+717481,88,Nationals Park
