@@ -2,9 +2,15 @@
 % Please edit documentation in R/app.R
 \name{compareTrajectories}
 \alias{compareTrajectories}
+\alias{selectPlayers2}
+\alias{compare_plot}
 \title{Shiny app for comparing player trajectories}
 \usage{
 compareTrajectories()
+
+selectPlayers2(midYearRange, minIP)
+
+compare_plot(playerid_1, playerid_2, measure, xvar)
 }
 \description{
 Shiny app for comparing player trajectories

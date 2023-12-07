@@ -147,6 +147,8 @@ compareTrajectories <- function() {
     runApp()
 }
 
+#' @rdname compareTrajectories
+#' @export
 
 selectPlayers2 <- function(midYearRange, minIP) {
   Lahman::Pitching |>
@@ -169,6 +171,10 @@ selectPlayers2 <- function(midYearRange, minIP) {
     mutate(Name = paste(nameFirst, nameLast)) |>
     select(playerID, Name)
 }
+
+
+#' @rdname compareTrajectories
+#' @export
 
 compare_plot <- function(playerid_1, playerid_2,
                          measure, xvar) {
