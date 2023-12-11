@@ -1,3 +1,9 @@
+globalVariables(c(
+  "Name", "playerID", "nameFirst", "nameLast", "yearID", "IPouts", "H", "HR", 
+  "ER", "BB", "SO", "HBP", "IP", "FIP", "cFIP", "birthMonth", "birthYear", 
+  "birthyear", "XVAR", "Outcome", "Weight", "minYear", "maxYear", "midYear"
+))
+
 #' @title Shiny app for comparing player trajectories
 #' @export
 #' @import shiny
@@ -137,7 +143,7 @@ compareTrajectories <- function() {
         out <- compare_plot(
           id1, id2, input$type, input$xvar
         )
-        write_csv(out$S, file)
+        readr::write_csv(out$S, file)
       }
     )
   }
@@ -148,6 +154,9 @@ compareTrajectories <- function() {
 }
 
 #' @rdname compareTrajectories
+#' @param midYearRange a numeric vector giving the range of possible years
+#' @param minIP minimum number of innings pitched (IP) to be considered in the
+#' group. 
 #' @export
 
 selectPlayers2 <- function(midYearRange, minIP) {
@@ -175,6 +184,14 @@ selectPlayers2 <- function(midYearRange, minIP) {
 
 #' @rdname compareTrajectories
 #' @export
+#' @param playerid_1 Lahman ID for the first player
+#' @param playerid_2 Lahman ID for the second player
+#' @param measure Name of the measure of pitching performance to be compared. 
+#' Must be one 
+#' of: "ERA", "FIP", "WHIP", "SO Rate", "BB Rate"
+#' @param xvar Name of the variable for the x-axis. 
+#' Must be either "age" or "year"
+#' @seealso [Lahman::People]
 
 compare_plot <- function(playerid_1, playerid_2,
                          measure, xvar) {

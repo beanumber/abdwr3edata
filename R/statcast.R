@@ -1,3 +1,7 @@
+globalVariables(c(
+  "game_type", "game_date", "year"
+))
+
 #' @title Download Statcast data from Baseball Savant
 #' @description
 #' Baseball Savant downloads are limited to 25,000 rows. These functions help

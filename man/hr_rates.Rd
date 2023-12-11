@@ -20,6 +20,6 @@ a \code{list} with two elements
 Compute home run rates
 }
 \examples{
-hr.rates(35, 4, 200)
+hr_rates(35, 4, 200)
 
 }

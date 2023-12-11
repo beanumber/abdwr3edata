@@ -12,6 +12,23 @@ selectPlayers2(midYearRange, minIP)
 
 compare_plot(playerid_1, playerid_2, measure, xvar)
 }
+\arguments{
+\item{midYearRange}{a numeric vector giving the range of possible years}
+
+\item{minIP}{minimum number of innings pitched (IP) to be considered in the
+group.}
+
+\item{playerid_1}{Lahman ID for the first player}
+
+\item{playerid_2}{Lahman ID for the second player}
+
+\item{measure}{Name of the measure of pitching performance to be compared.
+Must be one
+of: "ERA", "FIP", "WHIP", "SO Rate", "BB Rate"}
+
+\item{xvar}{Name of the variable for the x-axis.
+Must be either "age" or "year"}
+}
 \description{
 Shiny app for comparing player trajectories
 }
@@ -19,4 +36,7 @@ Shiny app for comparing player trajectories
 \dontrun{
   compareTrajectories()
 }
+}
+\seealso{
+\link[Lahman:People]{Lahman::People}
 }
