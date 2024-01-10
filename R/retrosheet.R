@@ -64,48 +64,48 @@ retrosheet_add_counts <- function(data, ...) {
     dplyr::mutate(
       pseq = gsub("[.>123+*N]", "", pitch_seq_tx),
       c00 = TRUE,
-      c10 = grepl("^[BIPV]", pseq),
-      c01 = grepl("^[CFKLMOQRST]", pseq),
-      c20 = grepl("^[BIPV]{2}", pseq),
-      c30 = grepl("^[BIPV]{3}", pseq),
-      c02 = grepl("^[CFKLMOQRST]{2}", pseq),
+      c10 = grepl(paste0("^", b), pseq),
+      c01 = grepl(paste0("^", s), pseq),
+      c20 = grepl(paste0("^", b, "{2}"), pseq),
+      c30 = grepl(paste0("^", b, "{3}"), pseq),
+      c02 = grepl(paste0("^", s, "{2}"), pseq),
       c11 = grepl(
         paste0(
           "^", s, b,
-          "|", b, s
+          "|^", b, s
         ), pseq
       ),
       c21 = grepl(
         paste0(
           "^", s, b, b,
-          "|", b, s, b,
-          "|", b, b, s
+          "|^", b, s, b,
+          "|^", b, b, s
         ),
         pseq
       ),
       c31 = grepl(
         paste0(
           "^", s, b, b, b,
-          "|", b, s, b, b,
-          "|", b, b, s, b,
-          "|", b, b, b, s
+          "|^", b, s, b, b,
+          "|^", b, b, s, b,
+          "|^", b, b, b, s
         ), pseq
       ),
       c12 = grepl(
         paste0(
           "^", b, s, s,
-          "|", s, b, s,
-          "|", s, s, "[FR]*", b
+          "|^", s, b, s,
+          "|^", s, s, "[FR]*", b
         ), pseq
       ),
       c22 = grepl(
         paste0(
           "^", b, b, s, s,
-          "|", b, s, b, s,
-          "|", b, s, s, "[FR]*", b,
-          "|", s, b, b, s,
-          "|", s, b, s, "[FR]*", b,
-          "|", s, s, "[FR]*", b, "[FR]*", b
+          "|^", b, s, b, s,
+          "|^", b, s, s, "[FR]*", b,
+          "|^", s, b, b, s,
+          "|^", s, b, s, "[FR]*", b,
+          "|^", s, s, "[FR]*", b, "[FR]*", b
         ), pseq
       ),
       c32 = grepl(
