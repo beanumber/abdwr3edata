@@ -60,7 +60,9 @@ statcast_daily <- function(the_date = lubridate::now(), dir = getwd()) {
 #' @param year The year for which you want to download data
 #' @export
 
-statcast_season <- function(year = lubridate::year(lubridate::now()), dir = getwd()) {
+statcast_season <- function(
+    year = lubridate::year(lubridate::now()), dir = getwd()
+) {
   if (!dir.exists(dir)) {
     dir.create(dir, recursive = TRUE)
   }
