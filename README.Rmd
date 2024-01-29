@@ -1,0 +1,57 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# abdwr3edata
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/beanumber/abdwr3edata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/beanumber/abdwr3edata/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+The goal of `abdwr3edata` is to facilitate computations made in the [3rd edition of 
+*Analyzing Baseball Data with R*](https://beanumber.github.io/abdwr3e/). 
+
+## Installation
+
+You can install the development version of `abdwr3edata` from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("beanumber/abdwr3edata")
+```
+
+## Example
+
+Compare the mean batting average for all those events that passed through a 1-1 count to those that didn't. 
+
+```{r example, message=FALSE}
+library(dplyr)
+library(abdwr3edata)
+retro2016 |>
+  retrosheet_add_counts() |>
+  group_by(c11) |>
+  summarize(
+    num_events = n(),
+    num_batters = n_distinct(bat_id),
+    num_pitchers = n_distinct(pit_id),
+    mean_ba = sum(h_fl) / sum(ab_fl)
+  )
+```
+
+## Citation
+
+```{r}
+citation("abdwr3edata")
+```
+

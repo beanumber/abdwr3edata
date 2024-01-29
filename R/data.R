@@ -26,6 +26,11 @@
 #' @rdname retro_gl_header
 "retro_gl_2011"
 
+#' Retrosheet events data for 2016
+#' @docType data
+#' @seealso [baseballr::retrosheet_data()]
+"retro2016"
+
 #' Joe DiMaggio's 1941 season
 #' @docType data
 "dimaggio_1941"

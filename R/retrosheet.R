@@ -2,7 +2,7 @@ globalVariables(c(
   "pitch_seq_tx", "pseq", "base1_run_id", "base2_run_id", "base3_run_id", 
   "bases", "outs_ct", "run1_dest_id", "bat_dest_id", "run2_dest_id", 
   "run3_dest_id", "event_outs_ct", "is_runner1", "is_runner2", "is_runner3",
-  "new_bases", "new"
+  "new_bases", "new_outs"
 ))
 
 #' @title Compute Base-Out States on Retrosheet Data

@@ -2,3 +2,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^data-raw$
+^data-large$
+^README\.Rmd$
+^\.github$
