@@ -15,5 +15,5 @@ test_that("statcast works", {
    z <- readr::read_rds(y[1])
    expect_s3_class(z, "tbl")
    expect_equal(nrow(z), 4354)
-   expect_equal(ncol(z), 93)
+   expect_equal(ncol(z), 95)
 })
