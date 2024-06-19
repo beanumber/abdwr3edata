@@ -14,7 +14,11 @@ hr_rates(age, hr, ab)
 \item{ab}{Number of at-bats}
 }
 \value{
-a \code{list} with two elements
+a \code{list} with two elements:
+\itemize{
+\item \code{x}: the age of the player
+\item \code{y}: the number of home runs per 100 at-bats
+}
 }
 \description{
 Compute home run rates
@@ -22,4 +26,7 @@ Compute home run rates
 \examples{
 hr_rates(35, 4, 200)
 
+}
+\references{
+\url{https://beanumber.github.io/abdwr3e/02-intro.html#sec-rfunctions}
 }

@@ -6,6 +6,8 @@ globalVariables(c(
 #' @title Simulate one season from 1968
 #' @param s.talent Proportion of talent (vs. luck)
 #' @export
+#' @returns A `tbl` with 20 rows (one for each team). Each call to function
+#' simulates one random season from 1968. 
 #' @examples
 #' one_simulation_68()
 #' 

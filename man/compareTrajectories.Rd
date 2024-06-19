@@ -29,6 +29,9 @@ of: "ERA", "FIP", "WHIP", "SO Rate", "BB Rate"}
 \item{xvar}{Name of the variable for the x-axis.
 Must be either "age" or "year"}
 }
+\value{
+A Shiny app
+}
 \description{
 Shiny app for comparing player trajectories
 }

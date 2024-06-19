@@ -9,7 +9,7 @@ globalVariables(c(
 #' 
 #' @param the_date The date on which you want to download data
 #' @param dir Path to a directory to store downloaded files
-#' @return NULL
+#' @returns Always `NULL`, as the file is written to disk.
 #' @export
 #' @seealso [baseballr::statcast_search()]
 #' @examples

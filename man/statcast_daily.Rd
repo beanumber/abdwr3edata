@@ -28,6 +28,9 @@ statcast_write_rds(x, dir = getwd(), ...)
 
 \item{...}{arguments passed to \code{\link[readr:read_rds]{readr::write_rds()}}. Currently ignored.}
 }
+\value{
+Always \code{NULL}, as the file is written to disk.
+}
 \description{
 Baseball Savant downloads are limited to 25,000 rows. These functions help
 you build a larger database easily.

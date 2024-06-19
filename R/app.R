@@ -9,6 +9,7 @@ globalVariables(c(
 #' @import shiny
 #' @import dplyr
 #' @import ggplot2
+#' @returns A Shiny app
 #' @examples
 #' \dontrun{
 #'   compareTrajectories()
