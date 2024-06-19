@@ -5,3 +5,6 @@
 ^data-large$
 ^README\.Rmd$
 ^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

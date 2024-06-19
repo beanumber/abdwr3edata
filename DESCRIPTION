@@ -1,6 +1,6 @@
 Package: abdwr3edata
 Title: Companion to 'Analyzing Baseball Data with R', 3rd edition
-Version: 0.0.2
+Version: 0.0.3
 Date: 2024-02-01
 Authors@R: c(
     person(given = "Benjamin S.",
