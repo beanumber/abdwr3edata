@@ -40,3 +40,17 @@
 "temps_2023"
 #' @rdname temps_2023
 "parks_2023"
+
+#' Ball-Strike Count data
+#' @docType data
+#' @details
+#' Pitch-by-pitch level detail for several players and umpires. 
+#' 
+#' @seealso <https://beanumber.github.io/abdwr3e/06-pitchcount.html#behaviors-by-count>
+"cabrera"
+#' @rdname cabrera
+"sanchez"
+#' @rdname cabrera
+"umpires"
+#' @rdname cabrera
+"verlander"

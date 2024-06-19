@@ -71,3 +71,12 @@ usethis::use_data(temps_2023, overwrite = TRUE, compress = "xz")
 parks_2023 <- here::here("data-raw", "parks_2023.csv") |>
   read_csv()
 usethis::use_data(parks_2023, overwrite = TRUE, compress = "xz")
+
+
+# ball-strike-count
+here::here("data-raw", "balls_strikes_count.RData") |>
+  load()
+usethis::use_data(cabrera, overwrite = TRUE, compress = "xz")
+usethis::use_data(sanchez, overwrite = TRUE, compress = "xz")
+usethis::use_data(umpires, overwrite = TRUE, compress = "xz")
+usethis::use_data(verlander, overwrite = TRUE, compress = "xz")
