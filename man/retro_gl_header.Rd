@@ -8,7 +8,169 @@
 \format{
 An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 0 rows and 161 columns.
 
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 2429 rows and 161 columns.
+\describe{
+\item{Date}{date in the form yyyymmdd}
+\item{DoubleHeader}{number of game}
+\item{DayOfWeek}{day of week}
+\item{VisitingTeam}{visiting team}
+\item{VisitingTeamLeague}{visiting league}
+\item{VisitingTeamGameNumber}{visiting team game number}
+\item{HomeTeam}{home team}
+\item{HomeTeamLeague}{home league}
+\item{HomeTeamGameNumber}{home team game number}
+\item{VisitorRunsScored}{visiting score}
+\item{HomeRunsScore}{home score}
+\item{LengthInOuts}{length of game in outs}
+\item{DayNight}{day/night indicator}
+\item{CompletionInfo}{completed game information}
+\item{ForfeitInfo}{forfeit game information}
+\item{ProtestInfo}{protest information}
+\item{ParkID}{park id}
+\item{Attendence}{attendance}
+\item{Duration}{time of game in minutes}
+\item{VisitorLineScore}{visiting team line score}
+\item{HomeLineScore}{home team line score}
+\item{VisitorAB}{visiting team at-bats}
+\item{VisitorH}{visiting team hits}
+\item{VisitorD}{visiting team doubles}
+\item{VisitorT}{visiting team triples}
+\item{VisitorHR}{visiting team home runs}
+\item{VisitorRBI}{visiting team runs batted in}
+\item{VisitorSH}{visiting team sacrifice hits}
+\item{VisitorSF}{visiting team sacrifice flies}
+\item{VisitorHBP}{visiting team hit by pitches}
+\item{VisitorBB}{visiting team walks}
+\item{VisitorIBB}{visiting team intentional walks}
+\item{VisitorK}{visiting team strikeouts}
+\item{VisitorSB}{visiting team stolen bases}
+\item{VisitorCS}{visiting team caught stealing}
+\item{VisitorGDP}{visiting team ground in double plays}
+\item{VisitorCI}{visiting team awarded first on catcher interference}
+\item{VisitorLOB}{visiting team left on base}
+\item{VisitorPitchers}{visiting team pitchers used}
+\item{VisitorER}{visiting team individual earned runs}
+\item{VisitorTER}{visiting team team earned runs}
+\item{VisitorWP}{visiting team wild pitches}
+\item{VisitorBalks}{visiting team balks}
+\item{VisitorPO}{visiting team putouts}
+\item{VisitorA}{visiting team assists}
+\item{VisitorE}{visiting team errors}
+\item{VisitorPassed}{visiting team passed balls}
+\item{VisitorDB}{visiting team double plays}
+\item{VisitorTP}{visiting team triple plays}
+\item{HomeAB}{home team at bats}
+\item{HomeH}{home team hits}
+\item{HomeD}{home team doubles}
+\item{HomeT}{home team triples}
+\item{HomeHR}{home team home runs}
+\item{HomeRBI}{home team runs batted in}
+\item{HomeSH}{home team sacrifice hits}
+\item{HomeSF}{home team sacrifice flies}
+\item{HomeHBP}{home team hit by pitches}
+\item{HomeBB}{home team walks}
+\item{HomeIBB}{home team intentional walks}
+\item{HomeK}{home team strikeouts}
+\item{HomeSB}{home team stolen bases}
+\item{HomeCS}{home team caught stealing}
+\item{HomeGDP}{home team ground in double plays}
+\item{HomeCI}{home team awarded first on catcher interference}
+\item{HomeLOB}{home team left on base}
+\item{HomePitchers}{home team number of pitchers}
+\item{HomeER}{home team individual earned runs}
+\item{HomeTER}{home team team earned runs}
+\item{HomeWP}{home team wild pitches}
+\item{HomeBalks}{home team balks}
+\item{HomePO}{home team putouts}
+\item{HomeA}{home team assists}
+\item{HomeE}{home team errors}
+\item{HomePassed}{home team passed balls}
+\item{HomeDB}{home team double plays}
+\item{HomeTP}{home team triple plays}
+\item{UmpireHID}{home plate umpire id}
+\item{UmpireHName}{home plate umpire name}
+\item{Umpire1BID}{1st base umpire id}
+\item{Umpire1BName}{1st base umpire name}
+\item{Umpire2BID}{2nd base umpire id}
+\item{Umpire2BName}{2nd base umpire name}
+\item{Umpire3BID}{3rd base umpire id}
+\item{Umpire3BName}{3rd base umpire name}
+\item{UmpireLFID}{LF umpire id}
+\item{UmpireLFName}{LF umpire name}
+\item{UmpireRFID}{RF umpire id}
+\item{UmpireRFName}{RF umpire name}
+\item{VisitorManagerID}{visiting manager id}
+\item{VisitorManagerName}{visiting manager name}
+\item{HomeManagerID}{home manager id}
+\item{HomeManagerName}{home manager name}
+\item{WinningPitcherID}{winning pitcher id}
+\item{WinningPitcherName}{winning pitcher name}
+\item{LosingPitcherID}{losing pitcher id}
+\item{LosingPitcherNAme}{losing pitcher name}
+\item{SavingPitcherID}{saving pitcher id}
+\item{SavingPitcherName}{saving pitcher name}
+\item{GameWinningRBIID}{id of player with the winning RBI}
+\item{GameWinningRBIName}{name of player with the winning RBI}
+\item{VisitorStartingPitcherID}{visiting starting pitcher id}
+\item{VisitorStartingPitcherName}{visiting starting pitcher name}
+\item{HomeStartingPitcherID}{home starting pitcher id}
+\item{HomeStartingPitcherName}{home starting pitcher name}
+\item{VisitorBatting1PlayerID}{visiting batting 1st id}
+\item{VisitorBatting1Name}{visiting batting 1st name}
+\item{VisitorBatting1Position}{visiting batting 1st position}
+\item{VisitorBatting2PlayerID}{visiting batting 2nd name}
+\item{VisitorBatting2Name}{visiting batting 2nd id}
+\item{VisitorBatting2Position}{visiting batting 2nd position}
+\item{VisitorBatting3PlayerID}{visiting batting 3rd id}
+\item{VisitorBatting3Name}{visiting batting 3rd name}
+\item{VisitorBatting3Position}{visiting batting 3rd position}
+\item{VisitorBatting4PlayerID}{visiting batting 4th id}
+\item{VisitorBatting4Name}{visiting batting 4th name}
+\item{VisitorBatting4Position}{visiting batting 4th position}
+\item{VisitorBatting5PlayerID}{visiting batting 5th id}
+\item{VisitorBatting5Name}{visiting batting 5th name}
+\item{VisitorBatting5Position}{visiting batting 5th position}
+\item{VisitorBatting6PlayerID}{visiting batting 6th id}
+\item{VisitorBatting6Name}{visiting batting 6th name}
+\item{VisitorBatting6Position}{visiting batting 6th position}
+\item{VisitorBatting7PlayerID}{visiting batting 7th id}
+\item{VisitorBatting7Name}{visiting batting 7th name}
+\item{VisitorBatting7Position}{visiting batting 7th position}
+\item{VisitorBatting8PlayerID}{visiting batting 8th id}
+\item{VisitorBatting8Name}{visiting batting 8th name}
+\item{VisitorBatting8Position}{visiting batting 8th position}
+\item{VisitorBatting9PlayerID}{visiting batting 9th id}
+\item{VisitorBatting9Name}{visiting batting 9th name}
+\item{VisitorBatting9Position}{visiting batting 9th position}
+\item{HomeBatting1PlayerID}{home batting 1st id}
+\item{HomeBatting1Name}{home batting 1st name}
+\item{HomeBatting1Position}{home batting 1st position}
+\item{HomeBatting2PlayerID}{home batting 2nd id}
+\item{HomeBatting2Name}{home batting 2nd name}
+\item{HomeBatting2Position}{home batting 2nd position}
+\item{HomeBatting3PlayerID}{home batting 3rd id}
+\item{HomeBatting3Name}{home batting 3rd name}
+\item{HomeBatting3Position}{home batting 3rd position}
+\item{HomeBatting4PlayerID}{home batting 4th id}
+\item{HomeBatting4Name}{home batting 4th name}
+\item{HomeBatting4Position}{home batting 4th position}
+\item{HomeBatting5PlayerID}{home batting 5th id}
+\item{HomeBatting5Name}{home batting 5th name}
+\item{HomeBatting5Position}{home batting 5th position}
+\item{HomeBatting6PlayerID}{home batting 6th id}
+\item{HomeBatting6Name}{home batting 6th name}
+\item{HomeBatting6Position}{home batting 6th position}
+\item{HomeBatting7PlayerID}{home batting 7th id}
+\item{HomeBatting7Name}{home batting 7th name}
+\item{HomeBatting7Position}{home batting 7th position}
+\item{HomeBatting8PlayerID}{home batting 8th id}
+\item{HomeBatting8Name}{home batting 8th name}
+\item{HomeBatting8Position}{home batting 8th position}
+\item{HomeBatting9PlayerID}{home batting 9th id}
+\item{HomeBatting9Name}{home batting 9th name}
+\item{HomeBatting9Position}{home batting 9th position}
+\item{AdditionalInfo}{additional information}
+\item{AcquisitionInfo}{acquisition information}
+}
 }
 \usage{
 retro_gl_header
@@ -16,6 +178,9 @@ retro_gl_header
 retro_gl_2011
 }
 \description{
-Retrosheet game logs
+Retrosheet game logs for all games played in the 2011 season
+}
+\details{
+For \link{retro_gl_header}, the data frame contains no rows, only the variable names.
 }
 \keyword{datasets}

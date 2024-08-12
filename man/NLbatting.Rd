@@ -7,11 +7,78 @@
 \alias{NLpitching}
 \title{American and National League statistics}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 16 rows and 28 columns.
+\describe{
+\item{Tm}{team abbreviation}
+\item{NBat}{number of players}
+\item{BatAge}{average age}
+\item{R.G}{runs scored per game}
+\item{G}{games played}
+\item{PA}{plate appearances}
+\item{AB}{at-bats}
+\item{R}{runs scored}
+\item{H}{hits}
+\item{X2B}{doubles}
+\item{X3B}{triples}
+\item{HR}{home runs}
+\item{RBI}{runs batted in}
+\item{SB}{stolen bases}
+\item{CS}{caught stealing}
+\item{BB}{walks}
+\item{SO}{strikeouts}
+\item{BA}{batting average}
+\item{OBP}{on-base percentage}
+\item{SLG}{slugging percentage}
+\item{OPS}{on-base percentage plus slugging percentage}
+\item{OPS.}{relative OPS statistic}
+\item{TB}{total bases}
+\item{GDP}{grounded into double play}
+\item{HBP}{hit by pitch}
+\item{SH}{sacrifice hits}
+\item{SF}{sacrifice flies}
+\item{IBB}{intentional walks}
+}
 
 An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 14 rows and 28 columns.
 
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 16 rows and 34 columns.
+\describe{
+\item{Tm}{team abbreviation}
+\item{NPitch}{number of pitchers}
+\item{PitchAge}{average age}
+\item{R.G}{runs allowed per game}
+\item{W}{wins}
+\item{L}{losses}
+\item{W.L.}{winning fraction}
+\item{ERA}{earned run average}
+\item{G}{games played}
+\item{GS}{games started}
+\item{GF}{games finished}
+\item{CG}{complete games}
+\item{tmSHO}{team shutouts}
+\item{cgSHO}{complete game shutouts}
+\item{SV}{saves}
+\item{IP}{innings pitched}
+\item{H}{hits}
+\item{R}{runs allowed}
+\item{ER}{earned runs allowed}
+\item{HR}{home runs}
+\item{BB}{walks}
+\item{IBB}{intentional walks}
+\item{SO}{strikeouts}
+\item{HBP}{hit by pitch}
+\item{BK}{balks}
+\item{WP}{wild pitches}
+\item{BF}{batters faced}
+\item{ERA.}{relative ERA}
+\item{WHIP}{hits and walks per nine innings}
+\item{H.9}{hits per nine innings}
+\item{HR.9}{home runs per nine innings}
+\item{BB.9}{walks per nine innings}
+\item{SO.9}{strikeouts per nine innings}
+\item{SO.BB}{ratio of strikeouts to walks}
+}
+}
+\source{
+Baseball-Reference: \url{https://www.baseball-reference.com/leagues/NL/2011.shtml}
 }
 \usage{
 NLbatting
@@ -21,6 +88,6 @@ ALbatting
 NLpitching
 }
 \description{
-American and National League statistics
+Batting statistics for all American and National League teams in the 2011 season
 }
 \keyword{datasets}

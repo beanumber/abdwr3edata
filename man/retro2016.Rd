@@ -5,13 +5,114 @@
 \alias{retro2016}
 \title{Retrosheet events data for 2016}
 \format{
-An object of class \code{baseballr_data} (inherits from \code{tbl_df}, \code{tbl}, \code{data.table}, \code{data.frame}) with 190713 rows and 98 columns.
+\describe{
+\item{GAME_ID}{game id}
+\item{AWAY_TEAM_ID}{visiting team}
+\item{INN_CT}{inning}
+\item{BAT_HOME_ID}{batting team}
+\item{OUTS_CT}{outs}
+\item{BALLS_CT}{balls}
+\item{STRIKES_CT}{strikes}
+\item{PITCH_SEQ_TX}{pitch sequence}
+\item{AWAY_SCORE_CT}{vis score}
+\item{HOME_SCORE_CT}{home score}
+\item{BAT_ID}{batter}
+\item{BAT_HAND_CD}{batter hand}
+\item{RESP_BAT_ID}{res batter}
+\item{RESP_BAT_HAND_CD}{res batter hand}
+\item{PIT_ID}{pitcher}
+\item{PIT_HAND_CD}{pitcher hand}
+\item{RESP_PIT_ID}{res pitcher}
+\item{RESP_PIT_HAND_CD}{res pitcher hand}
+\item{POS2_FLD_ID}{catcher}
+\item{POS3_FLD_ID}{first base}
+\item{POS4_FLD_ID}{second base}
+\item{POS5_FLD_ID}{third base}
+\item{POS6_FLD_ID}{shortstop}
+\item{POS7_FLD_ID}{left field}
+\item{POS8_FLD_ID}{center field}
+\item{POS9_FLD_ID}{right field}
+\item{BASE1_RUN_ID}{first runner}
+\item{BASE2_RUN_ID}{second runner}
+\item{BASE3_RUN_ID}{third runner}
+\item{EVENT_TX}{event text}
+\item{LEADOFF_FL}{leadoff flag}
+\item{PH_FL}{pinchhit flag}
+\item{BAT_FLD_CD}{defensive position}
+\item{BAT_LINEUP_ID}{lineup position}
+\item{EVENT_CD}{event type}
+\item{BAT_EVENT_FL}{batter event flag}
+\item{AB_FL}{ab flag}
+\item{H_FL}{hit value}
+\item{SH_FL}{SH flag}
+\item{SF_FL}{SF flag}
+\item{EVENT_OUTS_CT}{outs on play}
+\item{DP_FL}{double play flag}
+\item{TP_FL}{triple play flag}
+\item{RBI_CT}{RBI on play}
+\item{WP_FL}{wild pitch flag}
+\item{PB_FL}{passed ball flag}
+\item{FLD_CD}{fielded by}
+\item{BATTEDBALL_CD}{batted ball type}
+\item{BUNT_FL}{bunt flag}
+\item{FOUL_FL}{foul flag}
+\item{BATTEDBALL_LOC_TX}{hit location}
+\item{ERR_CT}{num errors}
+\item{ERR1_FLD_CD}{1st error player}
+\item{ERR1_CD}{1st error type}
+\item{ERR2_FLD_CD}{2nd error player}
+\item{ERR2_CD}{2nd error type}
+\item{ERR3_FLD_CD}{3rd error player}
+\item{ERR3_CD}{3rd error type}
+\item{BAT_DEST_ID}{batter dest}
+\item{RUN1_DEST_ID}{runner on 1st dest}
+\item{RUN2_DEST_ID}{runner on 2nd dest}
+\item{RUN3_DEST_ID}{runner on 3rd dest}
+\item{BAT_PLAY_TX}{play on batter}
+\item{RUN1_PLAY_TX}{play on runner on 1st}
+\item{RUN2_PLAY_TX}{play on runner on 2nd}
+\item{RUN3_PLAY_TX}{play on runner on 3rd}
+\item{RUN1_SB_FL}{SB for runner on 1st flag}
+\item{RUN2_SB_FL}{SB for runner on 2nd flag}
+\item{RUN3_SB_FL}{SB for runner on 3rd flag}
+\item{RUN1_CS_FL}{CS for runner on 1st flag}
+\item{RUN2_CS_FL}{CS for runner on 2nd flag}
+\item{RUN3_CS_FL}{CS for runner on 3rd flag}
+\item{RUN1_PK_FL}{PO for runner on 1st flag}
+\item{RUN2_PK_FL}{PO for runner on 2nd flag}
+\item{RUN3_PK_FL}{PO for runner on 3rd flag}
+\item{RUN1_RESP_PIT_ID}{responsible pitcher for runner on 1st}
+\item{RUN2_RESP_PIT_ID}{responsible pitcher for runner on 2nd}
+\item{RUN3_RESP_PIT_ID}{responsible pitcher for runner on 3rd}
+\item{GAME_NEW_FL}{new game flag}
+\item{GAME_END_FL}{end game flag}
+\item{PR_RUN1_FL}{pinch-runner on 1st}
+\item{PR_RUN2_FL}{pinch-runner on 2nd}
+\item{PR_RUN3_FL}{pinch-runner on 3rd}
+\item{REMOVED_FOR_PR_RUN1_ID}{runner removed for pinch-runner on 1st}
+\item{REMOVED_FOR_PR_RUN2_ID}{runner removed for pinch-runner on 2nd}
+\item{REMOVED_FOR_PR_RUN3_ID}{runner removed for pinch-runner on 3rd}
+\item{REMOVED_FOR_PH_BAT_ID}{batter removed for pinch-hitter}
+\item{REMOVED_FOR_PH_BAT_FLD_CD}{position of batter removed for pinch-hitter}
+\item{PO1_FLD_CD}{fielder with first putout}
+\item{PO2_FLD_CD}{fielder with second putout}
+\item{PO3_FLD_CD}{fielder with third putout}
+\item{ASS1_FLD_CD}{fielder with first assist}
+\item{ASS2_FLD_CD}{fielder with second assist}
+\item{ASS3_FLD_CD}{fielder with third assist}
+\item{ASS4_FLD_CD}{fielder with fourth assist}
+\item{ASS5_FLD_CD}{fielder with fifth assist}
+\item{EVENT_ID}{event num}
+}
+}
+\source{
+\href{https://www.retrosheet.org/game.htm}{Retrosheet Event files}
 }
 \usage{
 retro2016
 }
 \description{
-Retrosheet events data for 2016
+Retrosheet play-by-play data for complete 1998 season
 }
 \seealso{
 \code{\link[baseballr:retrosheet_data]{baseballr::retrosheet_data()}}

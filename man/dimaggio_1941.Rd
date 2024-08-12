@@ -55,8 +55,6 @@ dimaggio_1941
 williams_1941
 }
 \description{
-Game-by-game hitting data for Joe DiMaggio in the 1941 season
-
-Game-by-game hitting data for Ted Williams in the 1941 season
+Game-by-game hitting data for Ted Williams and Joe DiMaggio in the 1941 season
 }
 \keyword{datasets}

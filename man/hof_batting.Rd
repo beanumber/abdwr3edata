@@ -4,11 +4,54 @@
 \name{hof_batting}
 \alias{hof_batting}
 \alias{hof_pitching}
-\title{Hall of Fame batting}
+\title{Hall of Fame Batting and Pitching Statistics}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 167 rows and 46 columns.
+\describe{
+\item{Player}{player name}
+\item{HR}{career home runs}
+\item{AB}{career at-bats}
+\item{From}{first season in MLB}
+\item{To}{last season in MLB}
+\item{OBP}{career on-base percentage}
+\item{SLG}{career slugging percentage}
+\item{OPS}{career OPS statistic}
+}
 
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 70 rows and 30 columns.
+\describe{
+\item{Rk}{A ranking number}
+\item{X2}{player name}
+\item{Inducted}{year inducated in HOF}
+\item{Yrs}{length of career}
+\item{From}{first year in MLB}
+\item{To}{final year in MLB}
+\item{ASG}{number of all-star game appearances}
+\item{WAR}{career WAR measure}
+\item{W}{career wins}
+\item{L}{career losses}
+\item{W.L.}{winning fraction}
+\item{ERA}{career ERA}
+\item{G}{career games}
+\item{GS}{career games started}
+\item{GF}{career games finished}
+\item{CG}{complete games}
+\item{SHO}{shutouts}
+\item{SV}{saves}
+\item{IP}{innings pitched}
+\item{H}{hits allowed}
+\item{R}{runs allowed}
+\item{ER}{earned runs allowed}
+\item{HR}{home runs allowed}
+\item{BB}{walks}
+\item{IBB}{intentional walks}
+\item{SO}{strikeouts}
+\item{HBP}{hit by pitches}
+\item{BK}{balks}
+\item{WP}{wild pitches}
+\item{BF}{batters faced}
+}
+}
+\source{
+Baseball-Reference
 }
 \usage{
 hof_batting
@@ -16,6 +59,10 @@ hof_batting
 hof_pitching
 }
 \description{
-Hall of Fame batting
+Career batting and pitching statistics for players inducted in the
+baseball Hall of Fame
+}
+\seealso{
+\link[Lahman:HallOfFame]{Lahman::HallOfFame}
 }
 \keyword{datasets}
