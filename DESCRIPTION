@@ -22,7 +22,7 @@ Encoding: UTF-8
 URL: https://github.com/beanumber/abdwr3edata, https://beanumber.github.io/abdwr3edata/
 BugReports: https://github.com/beaumber/abdwr3edata/issues
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Depends: R (>= 4.1.0)
 Imports: 
     baseballr,

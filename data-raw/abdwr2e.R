@@ -63,6 +63,11 @@ dimaggio_1941 <- url |>
 
 usethis::use_data(dimaggio_1941, overwrite = TRUE, compress = "xz")
 
+# Williams
+williams_1941 <- here::here("data-raw", "williams.1941.csv") |>
+  read_csv()
+usethis::use_data(williams_1941, overwrite = TRUE, compress = "xz")
+
 # Ballpark temperatures
 temps_2023 <- here::here("data-raw", "temps_2023.csv") |>
   read_csv()
