@@ -1,66 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/404.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/index.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/NLbatting.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/cabrera.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/compareTrajectories.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/dimaggio_1941.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/download_retrosheet.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/hof_batting.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/hr_rates.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/macros.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/one_simulation_68.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/retro2016.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/retro_gl_header.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/retrosheet_add_states.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/ripken_gamelog.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/spahn.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/statcast_daily.html</loc>
-  </url>
-  <url>
-    <loc>https://beanumber.github.io/abdwr3edata/reference/temps_2023.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://beanumber.github.io/abdwr3edata/404.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/LICENSE.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/authors.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/index.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/NLbatting.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/cabrera.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/compareTrajectories.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/dimaggio_1941.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/download_retrosheet.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/hof_batting.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/hr_rates.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/index.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/macros.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/one_simulation_68.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/retro2016.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/retro_gl_header.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/retrosheet_add_states.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/ripken_gamelog.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/spahn.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/statcast_daily.html</loc></url>
+<url><loc>https://beanumber.github.io/abdwr3edata/reference/temps_2023.html</loc></url>
 </urlset>
+
