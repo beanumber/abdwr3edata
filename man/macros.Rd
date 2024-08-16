@@ -54,7 +54,8 @@ index_entry(
 \item{alt}{alternate character string to use for indexing}
 }
 \description{
-Replacements for LaTeX macros
+These functions are used internally to write the book, and are not needed by
+users.
 }
 \examples{
 func("mutate")
@@ -73,3 +74,4 @@ index_entry(x = "Twilight", emph = TRUE)
 index_entry(x = "Richard De Veaux", alt = "De Veaux, Richard")
 index_entry(x = "left_join")
 }
+\keyword{internal}

@@ -1,6 +1,11 @@
 #' Replacements for LaTeX macros
 #' @name macros
+#' @description
+#' These functions are used internally to write the book, and are not needed by
+#' users. 
+#' 
 #' @export
+#' @keywords internal
 #' @param x text to wrap in macro
 #' @param index add LaTeX indexing?
 #' @examples 

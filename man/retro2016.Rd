@@ -112,7 +112,7 @@
 retro2016
 }
 \description{
-Retrosheet play-by-play data for complete 1998 season
+Retrosheet play-by-play data for complete 2016 season
 }
 \seealso{
 \code{\link[baseballr:retrosheet_data]{baseballr::retrosheet_data()}}

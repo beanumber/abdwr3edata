@@ -6,15 +6,37 @@
 \alias{sanchez}
 \alias{umpires}
 \alias{verlander}
-\title{Ball-Strike Count data}
+\title{Pitch-by-pitch level detail for several players and umpires}
 \format{
-An object of class \code{data.frame} with 6265 rows and 12 columns.
+\describe{
+\item{season}{The season}
+\item{gamedate}{Date of the game}
+\item{pitch_type}{Type of pitch}
+\item{balls}{Number of balls}
+\item{strikes}{Number of strikes}
+\item{speed}{Velocity of the pitch in miles per hour}
+\item{px}{Position of the pitch in the x-direction}
+\item{pz}{Position of the pitch in the z-direction}
+\item{swung}{Did the batter swing?}
+\item{hitx}{Location of the batted ball in the x-direction}
+\item{hity}{Location of the batted ball in the y-direction}
+\item{hit_outcome}{Outcome of the batted ball}
+}
 
-An object of class \code{data.frame} with 9113 rows and 10 columns.
+\describe{
+\item{pitches}{Number of pitches thrown}
+\item{batter_hand}{On which side of the plate was the batter standing?}
+}
 
-An object of class \code{data.frame} with 378365 rows and 9 columns.
+\describe{
+\item{umpire}{Identity of the umpire}
+\item{called_strike}{Was the pitch called a strike?}
+}
 
 An object of class \code{data.frame} with 15307 rows and 12 columns.
+}
+\source{
+\url{https://pitchrx.cpsievert.me/}
 }
 \usage{
 cabrera
@@ -26,10 +48,10 @@ umpires
 verlander
 }
 \description{
-Ball-Strike Count data
+Pitch-by-pitch level detail for several players and umpires
 }
 \details{
-Pitch-by-pitch level detail for several players and umpires.
+These data were scraped via the now-defunct \code{pitchrx} package.
 }
 \seealso{
 \url{https://beanumber.github.io/abdwr3e/06-pitchcount.html#behaviors-by-count}

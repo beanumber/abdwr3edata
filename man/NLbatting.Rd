@@ -88,6 +88,7 @@ ALbatting
 NLpitching
 }
 \description{
-Batting statistics for all American and National League teams in the 2011 season
+Batting and pitching statistics for all American and National League teams
+in the 2011 season.
 }
 \keyword{datasets}

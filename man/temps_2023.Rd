@@ -4,11 +4,17 @@
 \name{temps_2023}
 \alias{temps_2023}
 \alias{parks_2023}
-\title{Ballparks and temperatures}
+\title{Ballpark names and game time temperatures for 2023}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 2199 rows and 3 columns.
+\describe{
+\item{game_pk}{MLBAM game identifier}
+\item{temperature}{Game time temperature in degrees Fahrenheit}
+}
 
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 33 rows and 2 columns.
+\describe{
+\item{Park}{The name of the ballpark}
+\item{Dome}{Does the park have a domed roof?}
+}
 }
 \usage{
 temps_2023
@@ -16,6 +22,6 @@ temps_2023
 parks_2023
 }
 \description{
-Ballparks and temperatures
+Ballpark names and game time temperatures for 2023
 }
 \keyword{datasets}

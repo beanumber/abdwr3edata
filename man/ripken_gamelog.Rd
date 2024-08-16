@@ -3,14 +3,20 @@
 \docType{data}
 \name{ripken_gamelog}
 \alias{ripken_gamelog}
-\title{Ripken's Iron Man game}
+\title{Ripken's Iron Man game log}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 48 rows and 2 columns.
+\describe{
+\item{Variable}{Name of the variable}
+\item{Value}{Value of the variable}
+}
 }
 \usage{
 ripken_gamelog
 }
 \description{
-Ripken's Iron Man game
+Ripken's Iron Man game log
+}
+\seealso{
+\link{retro_gl_header}
 }
 \keyword{datasets}

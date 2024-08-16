@@ -1,5 +1,11 @@
-#' Ripken's Iron Man game
+#' Ripken's Iron Man game log
 #' @docType data
+#' @format 
+#' \describe{
+#'   \item{Variable}{Name of the variable}
+#'   \item{Value}{Value of the variable}
+#' }
+#' @seealso [retro_gl_header]
 "ripken_gamelog"
 
 #' Warren Spahn Pitching Statistics
@@ -47,7 +53,8 @@
 
 #' American and National League statistics
 #' @description
-#' Batting statistics for all American and National League teams in the 2011 season
+#' Batting and pitching statistics for all American and National League teams 
+#' in the 2011 season.
 #' @docType data
 #' @format
 #' \describe{
@@ -359,7 +366,7 @@
 #' Retrosheet events data for 2016
 #' @docType data
 #' @description
-#' Retrosheet play-by-play data for complete 1998 season
+#' Retrosheet play-by-play data for complete 2016 season
 #' @format 
 #'   \describe{
 #'     \item{GAME_ID}{game id}
@@ -512,22 +519,60 @@
 #' @source Baseball-Reference: <https://www.baseball-reference.com/players/gl.fcgi?id=willite01&t=b&year=1941>
 "williams_1941"
 
-#' Ballparks and temperatures
+#' Ballpark names and game time temperatures for 2023
 #' @docType data
+#' @format 
+#' \describe{
+#'   \item{game_pk}{MLBAM game identifier}
+#'   \item{temperature}{Game time temperature in degrees Fahrenheit}
+#' }
 "temps_2023"
 #' @rdname temps_2023
+#' @format 
+#' \describe{
+#'   \item{Park}{The name of the ballpark}
+#'   \item{Dome}{Does the park have a domed roof?}
+#' }
 "parks_2023"
 
-#' Ball-Strike Count data
-#' @docType data
+#' Pitch-by-pitch level detail for several players and umpires
 #' @details
-#' Pitch-by-pitch level detail for several players and umpires. 
+#' These data were scraped via the now-defunct `pitchrx` package.
+#' 
+#' @docType data
+#' @format 
+#'   \describe{
+#'     \item{season}{The season}
+#'     \item{gamedate}{Date of the game}
+#'     \item{pitch_type}{Type of pitch}
+#'     \item{balls}{Number of balls}
+#'     \item{strikes}{Number of strikes}
+#'     \item{speed}{Velocity of the pitch in miles per hour}
+#'     \item{px}{Position of the pitch in the x-direction}
+#'     \item{pz}{Position of the pitch in the z-direction}
+#'     \item{swung}{Did the batter swing?}
+#'     \item{hitx}{Location of the batted ball in the x-direction}
+#'     \item{hity}{Location of the batted ball in the y-direction}
+#'     \item{hit_outcome}{Outcome of the batted ball}
+#'   }
+#' @source <https://pitchrx.cpsievert.me/>
 #' 
 #' @seealso <https://beanumber.github.io/abdwr3e/06-pitchcount.html#behaviors-by-count>
+#' 
 "cabrera"
 #' @rdname cabrera
+#' @format 
+#'   \describe{
+#'     \item{pitches}{Number of pitches thrown}
+#'     \item{batter_hand}{On which side of the plate was the batter standing?}
+#'   }
 "sanchez"
 #' @rdname cabrera
+#' @format 
+#'   \describe{
+#'     \item{umpire}{Identity of the umpire}
+#'     \item{called_strike}{Was the pitch called a strike?}
+#'   }
 "umpires"
 #' @rdname cabrera
 "verlander"
